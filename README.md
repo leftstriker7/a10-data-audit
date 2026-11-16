@@ -8,7 +8,7 @@ counts each one against the others for every game an Atlantic 10 team played in
 **Result:** 335 games, 115,846 comparisons, 660 mismatches. Scoring reconciles
 exactly. Assists do not: play-by-play assists match the box score in 79% of
 team-games, and the gap depends on which arena hosted the game. The full
-write-up is in `output/report.html`.
+write-up is at <https://leftstriker7.github.io/a10-data-audit/>.
 
 ## What is here
 
