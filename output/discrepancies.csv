@@ -1,0 +1,661 @@
+game_id,game_date,matchup,home_team,conference_game,check,team,player,stat,expected,found,diff,likely_cause
+401813373,2025-11-03,"Niagara 63, Duquesne 83",Duquesne,FALSE,Player box sum vs team box,Niagara,NA,Fouls,15,14,-1,Team line has a foul charged to no player (typically a bench technical)
+401817182,2025-11-03,"Southeast Missouri State 67, Saint Louis 92",Saint Louis,FALSE,Play-by-play vs player box,Southeast Missouri State,Brendan Terry,Points,13,14,1,Play-by-play has an event the box score does not
+401817182,2025-11-03,"Southeast Missouri State 67, Saint Louis 92",Saint Louis,FALSE,Play-by-play vs player box,Southeast Missouri State,Brendan Terry,Free throws made,3,4,1,Play-by-play has an event the box score does not
+401817182,2025-11-03,"Southeast Missouri State 67, Saint Louis 92",Saint Louis,FALSE,Play-by-play vs player box,Southeast Missouri State,Brendan Terry,Free throws attempted,4,6,2,Play-by-play has an event the box score does not
+401817182,2025-11-03,"Southeast Missouri State 67, Saint Louis 92",Saint Louis,FALSE,Play-by-play vs player box,Southeast Missouri State,PJ Farmer,Points,1,0,-1,Event in the box score is missing from the play-by-play
+401817182,2025-11-03,"Southeast Missouri State 67, Saint Louis 92",Saint Louis,FALSE,Play-by-play vs player box,Southeast Missouri State,PJ Farmer,Free throws made,1,0,-1,Event in the box score is missing from the play-by-play
+401817182,2025-11-03,"Southeast Missouri State 67, Saint Louis 92",Saint Louis,FALSE,Play-by-play vs player box,Southeast Missouri State,PJ Farmer,Free throws attempted,2,0,-2,Missed shot missing from the play-by-play
+401817194,2025-11-03,"Bradley 63, St. Bonaventure 69",St. Bonaventure,FALSE,Play-by-play vs player box,St. Bonaventure,Andrew Osasuyi,Offensive rebounds,2,3,1,Rebound logged differently in the two sources
+401817194,2025-11-03,"Bradley 63, St. Bonaventure 69",St. Bonaventure,FALSE,Play-by-play vs team box,Bradley,NA,Defensive rebounds,24,23,-1,Rebound logged differently in the two sources
+401817194,2025-11-03,"Bradley 63, St. Bonaventure 69",St. Bonaventure,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Offensive rebounds,15,16,1,Rebound logged differently in the two sources
+401822734,2025-11-03,"Wagner 74, VCU 103",VCU,FALSE,Play-by-play vs player box,VCU,Brandon Jennings,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401822734,2025-11-03,"Wagner 74, VCU 103",VCU,FALSE,Play-by-play vs team box,VCU,NA,Assists,25,24,-1,Assist in the box score has no matching play-by-play event
+401828642,2025-11-03,"DeSales 63, Davidson 97",Davidson,FALSE,Play-by-play vs player box,Davidson,Sam Brown,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828642,2025-11-03,"DeSales 63, Davidson 97",Davidson,FALSE,Play-by-play vs team box,Davidson,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Points,11,2,-9,Event in the box score is missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Field goals made,4,1,-3,Event in the box score is missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Field goals attempted,9,1,-8,Missed shot missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Free throws made,3,0,-3,Event in the box score is missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Free throws attempted,4,0,-4,Missed shot missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Defensive rebounds,7,0,-7,Rebound logged differently in the two sources
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Assists,6,0,-6,Assist in the box score has no matching play-by-play event
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Steals,1,0,-1,Event in the box score is missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Turnovers,1,0,-1,Event in the box score is missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Jordan Rogers,Fouls,2,0,-2,Event in the box score is missing from the play-by-play
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Quentin Duncan,Points,8,10,2,Play-by-play has an event the box score does not
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Quentin Duncan,Field goals made,3,4,1,Play-by-play has an event the box score does not
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Quentin Duncan,Field goals attempted,5,6,1,Play-by-play has an event the box score does not
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs player box,NJIT,Quentin Duncan,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401822165,2025-11-04,"NJIT 72, Fordham 61",Fordham,FALSE,Play-by-play vs team box,NJIT,NA,Assists,14,8,-6,Assist in the box score has no matching play-by-play event
+401817172,2025-11-05,"Southern Virginia 56, Richmond 84",Richmond,FALSE,Play-by-play vs player box,Richmond,Mikkel Tyne,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817172,2025-11-05,"Southern Virginia 56, Richmond 84",Richmond,FALSE,Play-by-play vs player box,Richmond,Will Harper III,Assists,2,0,-2,Assist in the box score has no matching play-by-play event
+401817172,2025-11-05,"Southern Virginia 56, Richmond 84",Richmond,FALSE,Play-by-play vs team box,Richmond,NA,Assists,18,15,-3,Assist in the box score has no matching play-by-play event
+401822176,2025-11-05,"Coppin State 59, La Salle 87",La Salle,FALSE,Play-by-play vs player box,La Salle,Damon Strand,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822176,2025-11-05,"Coppin State 59, La Salle 87",La Salle,FALSE,Play-by-play vs player box,La Salle,Eric Acker,Assists,0,1,1,Play-by-play credits an assist the box score does not
+401817183,2025-11-06,"Chicago State 86, Saint Louis 108",Saint Louis,FALSE,Play-by-play vs player box,Chicago State,Marcus Tankersley,Assists,2,3,1,Play-by-play credits an assist the box score does not
+401817183,2025-11-06,"Chicago State 86, Saint Louis 108",Saint Louis,FALSE,Play-by-play vs team box,Chicago State,NA,Assists,13,14,1,Play-by-play credits an assist the box score does not
+401817164,2025-11-07,"Tulsa 82, Rhode Island 65",Rhode Island,FALSE,Play-by-play vs player box,Rhode Island,Myles Corey,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817164,2025-11-07,"Tulsa 82, Rhode Island 65",Rhode Island,FALSE,Play-by-play vs team box,Rhode Island,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401822166,2025-11-07,"Mount St Mary 37, Fordham 106",Fordham,FALSE,Play-by-play vs player box,Fordham,Akira Jacobs,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822166,2025-11-07,"Mount St Mary 37, Fordham 106",Fordham,FALSE,Play-by-play vs player box,Fordham,Rikus Schulte,Assists,1,2,1,Play-by-play credits an assist the box score does not
+401822166,2025-11-07,"Mount St Mary 37, Fordham 106",Fordham,FALSE,Play-by-play vs player box,Fordham,Roor Akhuar,Assists,2,0,-2,Assist in the box score has no matching play-by-play event
+401822166,2025-11-07,"Mount St Mary 37, Fordham 106",Fordham,FALSE,Play-by-play vs player box,Fordham,Zarique Nutter,Assists,3,4,1,Play-by-play credits an assist the box score does not
+401822166,2025-11-07,"Mount St Mary 37, Fordham 106",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Assists,28,27,-1,Assist in the box score has no matching play-by-play event
+401822735,2025-11-07,"VCU 77, Utah State 80",Utah State,FALSE,Play-by-play vs player box,Utah State,Tucker Anderson,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401822735,2025-11-07,"VCU 77, Utah State 80",Utah State,FALSE,Play-by-play vs team box,Utah State,NA,Assists,18,17,-1,Assist in the box score has no matching play-by-play event
+401813347,2025-11-08,"Canisius 70, St. Bonaventure 89",St. Bonaventure,FALSE,Play-by-play vs player box,Canisius,Bryan Ndjonga,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401813347,2025-11-08,"Canisius 70, St. Bonaventure 89",St. Bonaventure,FALSE,Play-by-play vs player box,Canisius,Javante Edwards,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401813347,2025-11-08,"Canisius 70, St. Bonaventure 89",St. Bonaventure,FALSE,Play-by-play vs player box,Canisius,Mike Evbagharu,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401813347,2025-11-08,"Canisius 70, St. Bonaventure 89",St. Bonaventure,FALSE,Play-by-play vs player box,St. Bonaventure,Joe Grahovac,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401813347,2025-11-08,"Canisius 70, St. Bonaventure 89",St. Bonaventure,FALSE,Play-by-play vs team box,Canisius,NA,Assists,11,8,-3,Assist in the box score has no matching play-by-play event
+401813347,2025-11-08,"Canisius 70, St. Bonaventure 89",St. Bonaventure,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Assists,18,17,-1,Assist in the box score has no matching play-by-play event
+401817142,2025-11-08,"South Florida 95, George Washington 99",George Washington,FALSE,Play-by-play vs player box,George Washington,Christian Jones,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401817142,2025-11-08,"South Florida 95, George Washington 99",George Washington,FALSE,Play-by-play vs team box,George Washington,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401822177,2025-11-08,"Monmouth 60, La Salle 73",La Salle,FALSE,Play-by-play vs player box,La Salle,Ashton Walker,Assists,9,8,-1,Assist in the box score has no matching play-by-play event
+401822177,2025-11-08,"Monmouth 60, La Salle 73",La Salle,FALSE,Play-by-play vs team box,La Salle,NA,Assists,17,16,-1,Assist in the box score has no matching play-by-play event
+401822667,2025-11-08,"Drexel 65, Saint Joseph's 76",Saint Joseph's,FALSE,Play-by-play vs player box,Drexel,Ralph Akuta,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401822667,2025-11-08,"Drexel 65, Saint Joseph's 76",Saint Joseph's,FALSE,Play-by-play vs player box,Saint Joseph's,Justice Ajogbor,Blocks,3,2,-1,Event in the box score is missing from the play-by-play
+401822667,2025-11-08,"Drexel 65, Saint Joseph's 76",Saint Joseph's,FALSE,Play-by-play vs team box,Drexel,NA,Assists,10,9,-1,Assist in the box score has no matching play-by-play event
+401822667,2025-11-08,"Drexel 65, Saint Joseph's 76",Saint Joseph's,FALSE,Play-by-play vs team box,Saint Joseph's,NA,Blocks,5,4,-1,Event in the box score is missing from the play-by-play
+401828276,2025-11-09,"North Texas 64, Loyola Chicago 62",Loyola Chicago,FALSE,Play-by-play vs player box,Loyola Chicago,Deywilk Tavarez,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828276,2025-11-09,"North Texas 64, Loyola Chicago 62",Loyola Chicago,FALSE,Play-by-play vs player box,North Texas,David Terrell Jr.,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828276,2025-11-09,"North Texas 64, Loyola Chicago 62",Loyola Chicago,FALSE,Play-by-play vs team box,Loyola Chicago,NA,Assists,12,11,-1,Assist in the box score has no matching play-by-play event
+401828276,2025-11-09,"North Texas 64, Loyola Chicago 62",Loyola Chicago,FALSE,Play-by-play vs team box,North Texas,NA,Assists,8,7,-1,Assist in the box score has no matching play-by-play event
+401813436,2025-11-11,"Dayton 62, Cincinnati 74",Cincinnati,FALSE,Play-by-play vs player box,Dayton,De'Shayne Montgomery,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401813436,2025-11-11,"Dayton 62, Cincinnati 74",Cincinnati,FALSE,Play-by-play vs team box,Dayton,NA,Assists,11,10,-1,Assist in the box score has no matching play-by-play event
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Brandon Hall,Field goals attempted,2,1,-1,Missed shot missing from the play-by-play
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Brandon Hall,Threes attempted,1,0,-1,Missed shot missing from the play-by-play
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Field goals attempted,10,11,1,Play-by-play has an event the box score does not
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Threes attempted,4,5,1,Play-by-play has an event the box score does not
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs player box,Queens University,Jordan Watford,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs team box,Duquesne,NA,Assists,17,16,-1,Assist in the box score has no matching play-by-play event
+401813446,2025-11-11,"Queens University 81, Duquesne 87",Duquesne,FALSE,Play-by-play vs team box,Queens University,NA,Assists,12,11,-1,Assist in the box score has no matching play-by-play event
+401820798,2025-11-11,"Davidson 62, Charlotte 55",Charlotte,FALSE,Play-by-play vs player box,Davidson,Nick Coval,Assists,3,4,1,Play-by-play credits an assist the box score does not
+401820798,2025-11-11,"Davidson 62, Charlotte 55",Charlotte,FALSE,Play-by-play vs team box,Davidson,NA,Assists,14,15,1,Play-by-play credits an assist the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Akira Jacobs,Turnovers,1,0,-1,Event in the box score is missing from the play-by-play
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Dejour Reaves,Turnovers,1,2,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Rikus Schulte,Threes attempted,1,0,-1,Missed shot missing from the play-by-play
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Roor Akhuar,Threes attempted,3,2,-1,Missed shot missing from the play-by-play
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Roor Akhuar,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Roor Akhuar,Steals,1,2,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Fordham,Roor Akhuar,Turnovers,0,1,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Wagner,Bryan Akanmu,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Wagner,Eddie Placer,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Wagner,Nick Jones,Steals,1,2,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Wagner,Nick Jones,Turnovers,2,3,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs player box,Wagner,Zavier Fitch,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Threes attempted,16,14,-2,Missed shot missing from the play-by-play
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Assists,9,8,-1,Assist in the box score has no matching play-by-play event
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Steals,7,8,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Turnovers,6,7,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Wagner,NA,Assists,18,15,-3,Assist in the box score has no matching play-by-play event
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Wagner,NA,Steals,3,4,1,Play-by-play has an event the box score does not
+401822167,2025-11-11,"Wagner 61, Fordham 63",Fordham,FALSE,Play-by-play vs team box,Wagner,NA,Turnovers,9,10,1,Play-by-play has an event the box score does not
+401817143,2025-11-12,"American University 67, George Washington 107",George Washington,FALSE,Play-by-play vs player box,George Washington,Tyrone Marshall Jr.,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817143,2025-11-12,"American University 67, George Washington 107",George Washington,FALSE,Play-by-play vs team box,George Washington,NA,Assists,21,20,-1,Assist in the box score has no matching play-by-play event
+401822736,2025-11-12,"Saint Peter's 61, VCU 78",VCU,FALSE,Player box sum vs team box,VCU,NA,Fouls,18,17,-1,Team line has a foul charged to no player (typically a bench technical)
+401822168,2025-11-14,"Fordham 71, Iona 76",Iona,FALSE,Play-by-play vs player box,Fordham,Christian Henry,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401822168,2025-11-14,"Fordham 71, Iona 76",Iona,FALSE,Play-by-play vs player box,Fordham,Louis Lesmond,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401822168,2025-11-14,"Fordham 71, Iona 76",Iona,FALSE,Play-by-play vs player box,Iona,CJ Anthony,Assists,8,7,-1,Assist in the box score has no matching play-by-play event
+401822168,2025-11-14,"Fordham 71, Iona 76",Iona,FALSE,Play-by-play vs player box,Iona,Denver Anglin,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822168,2025-11-14,"Fordham 71, Iona 76",Iona,FALSE,Play-by-play vs team box,Fordham,NA,Assists,16,14,-2,Assist in the box score has no matching play-by-play event
+401822168,2025-11-14,"Fordham 71, Iona 76",Iona,FALSE,Play-by-play vs team box,Iona,NA,Assists,18,16,-2,Assist in the box score has no matching play-by-play event
+401817144,2025-11-15,"Old Dominion 73, George Washington 96",George Washington,FALSE,Play-by-play vs player box,Old Dominion,Jordan Battle,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817144,2025-11-15,"Old Dominion 73, George Washington 96",George Washington,FALSE,Play-by-play vs team box,Old Dominion,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401817196,2025-11-15,"Youngstown State 80, St. Bonaventure 84",St. Bonaventure,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817196,2025-11-15,"Youngstown State 80, St. Bonaventure 84",St. Bonaventure,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401822169,2025-11-16,"Manhattanville 62, Fordham 96",Fordham,FALSE,Play-by-play vs player box,Fordham,Ryan Pettis,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401822169,2025-11-16,"Manhattanville 62, Fordham 96",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Assists,29,28,-1,Assist in the box score has no matching play-by-play event
+401817255,2025-11-17,"VCU 79, NC State 85",NC State,FALSE,Play-by-play vs player box,NC State,Jerry Deng,Blocks,0,1,1,Play-by-play has an event the box score does not
+401817255,2025-11-17,"VCU 79, NC State 85",NC State,FALSE,Play-by-play vs player box,NC State,Musa Sagnia,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401813438,2025-11-19,"Dayton 77, Marquette 71",Marquette,FALSE,Play-by-play vs player box,Marquette,Nigel James Jr.,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401813438,2025-11-19,"Dayton 77, Marquette 71",Marquette,FALSE,Play-by-play vs team box,Marquette,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401817145,2025-11-19,"UMBC 52, George Washington 89",George Washington,FALSE,Play-by-play vs player box,George Washington,Jean Aranguren,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401817145,2025-11-19,"UMBC 52, George Washington 89",George Washington,FALSE,Play-by-play vs player box,George Washington,Trey Autry,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817145,2025-11-19,"UMBC 52, George Washington 89",George Washington,FALSE,Play-by-play vs team box,George Washington,NA,Assists,18,16,-2,Assist in the box score has no matching play-by-play event
+401822180,2025-11-19,"Villanova 70, La Salle 55",La Salle,FALSE,Play-by-play vs player box,Villanova,Zion Stanford,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822180,2025-11-19,"Villanova 70, La Salle 55",La Salle,FALSE,Play-by-play vs team box,Villanova,NA,Assists,17,16,-1,Assist in the box score has no matching play-by-play event
+401812355,2025-11-20,"Long Island University 53, Fordham 69",Fordham,FALSE,Play-by-play vs player box,Fordham,Louis Lesmond,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401812355,2025-11-20,"Long Island University 53, Fordham 69",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401813439,2025-11-22,"North Carolina Central 55, Dayton 74",Dayton,FALSE,Play-by-play vs player box,Dayton,De'Shayne Montgomery,Assists,5,6,1,Play-by-play credits an assist the box score does not
+401813439,2025-11-22,"North Carolina Central 55, Dayton 74",Dayton,FALSE,Play-by-play vs team box,Dayton,NA,Assists,13,14,1,Play-by-play credits an assist the box score does not
+401813449,2025-11-22,"Northeastern 93, Duquesne 86",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Dom Aekins,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401813449,2025-11-22,"Northeastern 93, Duquesne 86",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401813449,2025-11-22,"Northeastern 93, Duquesne 86",Duquesne,FALSE,Play-by-play vs team box,Duquesne,NA,Assists,14,12,-2,Assist in the box score has no matching play-by-play event
+401817176,2025-11-22,"Gardner-Webb 67, Richmond 102",Richmond,FALSE,Play-by-play vs player box,Richmond,Aiden Argabright,Defensive rebounds,3,4,1,Rebound logged differently in the two sources
+401817176,2025-11-22,"Gardner-Webb 67, Richmond 102",Richmond,FALSE,Play-by-play vs player box,Richmond,Mike Walz,Defensive rebounds,9,8,-1,Rebound logged differently in the two sources
+401822737,2025-11-22,"Coppin State 58, VCU 101",VCU,FALSE,Play-by-play vs player box,VCU,Barry Evans,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401822737,2025-11-22,"Coppin State 58, VCU 101",VCU,FALSE,Play-by-play vs player box,VCU,Lazar Djokovic,Blocks,1,2,1,Play-by-play has an event the box score does not
+401808728,2025-11-23,"McNeese 92, George Washington 86",George Washington,FALSE,Play-by-play vs player box,George Washington,Christian Jones,Turnovers,4,3,-1,Event in the box score is missing from the play-by-play
+401808728,2025-11-23,"McNeese 92, George Washington 86",George Washington,FALSE,Play-by-play vs player box,George Washington,Jean Aranguren,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401808728,2025-11-23,"McNeese 92, George Washington 86",George Washington,FALSE,Play-by-play vs player box,McNeese,Javohn Garcia,Steals,6,5,-1,Event in the box score is missing from the play-by-play
+401808728,2025-11-23,"McNeese 92, George Washington 86",George Washington,FALSE,Play-by-play vs team box,George Washington,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401808728,2025-11-23,"McNeese 92, George Washington 86",George Washington,FALSE,Play-by-play vs team box,George Washington,NA,Turnovers,24,23,-1,Event in the box score is missing from the play-by-play
+401808728,2025-11-23,"McNeese 92, George Washington 86",George Washington,FALSE,Play-by-play vs team box,McNeese,NA,Steals,17,16,-1,Event in the box score is missing from the play-by-play
+401817146,2025-11-24,"George Washington 92, Middle Tennessee 79",Middle Tennessee,FALSE,Play-by-play vs player box,George Washington,Bubu Benjamin,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817146,2025-11-24,"George Washington 92, Middle Tennessee 79",Middle Tennessee,FALSE,Play-by-play vs team box,George Washington,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401826701,2025-11-24,"George Mason 92, Ohio 69",Ohio,FALSE,Player box sum vs team box,Ohio,NA,Fouls,17,16,-1,Team line has a foul charged to no player (typically a bench technical)
+401817147,2025-11-25,"Murray State 96, George Washington 95",George Washington,FALSE,Play-by-play vs player box,Murray State,Layne Taylor,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817147,2025-11-25,"Murray State 96, George Washington 95",George Washington,FALSE,Play-by-play vs team box,Murray State,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401817158,2025-11-25,"Northern Iowa 72, Loyola Chicago 51",Loyola Chicago,FALSE,Play-by-play vs player box,Northern Iowa,Leon Bond III,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817158,2025-11-25,"Northern Iowa 72, Loyola Chicago 51",Loyola Chicago,FALSE,Play-by-play vs team box,Northern Iowa,NA,Assists,21,20,-1,Assist in the box score has no matching play-by-play event
+401817198,2025-11-25,"St. Bonaventure 70, North Carolina 85",North Carolina,FALSE,Play-by-play vs player box,North Carolina,Derek Dixon,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817198,2025-11-25,"St. Bonaventure 70, North Carolina 85",North Carolina,FALSE,Play-by-play vs team box,North Carolina,NA,Assists,17,16,-1,Assist in the box score has no matching play-by-play event
+401813450,2025-11-26,"Central State 80, Duquesne 101",Duquesne,FALSE,Player box sum vs team box,Duquesne,NA,Fouls,12,11,-1,Team line has a foul charged to no player (typically a bench technical)
+401830746,2025-11-26,"San José State 63, Loyola Chicago 51",Loyola Chicago,FALSE,Player box sum vs team box,Loyola Chicago,NA,Fouls,14,13,-1,Team line has a foul charged to no player (typically a bench technical)
+401809397,2025-11-27,"Richmond 72, Furman 73",Furman,FALSE,Play-by-play vs player box,Richmond,Jonathan Beagle,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401809397,2025-11-27,"Richmond 72, Furman 73",Furman,FALSE,Play-by-play vs team box,Richmond,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401817187,2025-11-27,"Santa Clara 70, Saint Louis 71",Saint Louis,FALSE,Play-by-play vs player box,Santa Clara,Thierry Darlan,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817187,2025-11-27,"Santa Clara 70, Saint Louis 71",Saint Louis,FALSE,Play-by-play vs team box,Santa Clara,NA,Assists,10,9,-1,Assist in the box score has no matching play-by-play event
+401830752,2025-11-27,"VCU 74, Vanderbilt 89",Vanderbilt,FALSE,Player box sum vs team box,Vanderbilt,NA,Fouls,28,26,-2,Player lines do not add up to the team line
+401822182,2025-11-28,"Hofstra 63, La Salle 58",La Salle,FALSE,Play-by-play vs player box,La Salle,Edwin Daniel,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822182,2025-11-28,"Hofstra 63, La Salle 58",La Salle,FALSE,Play-by-play vs team box,La Salle,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401830741,2025-11-28,"Franklin Pierce 72, Fordham 74",Fordham,FALSE,Play-by-play vs player box,Fordham,Christian Henry,Assists,5,3,-2,Assist in the box score has no matching play-by-play event
+401830741,2025-11-28,"Franklin Pierce 72, Fordham 74",Fordham,FALSE,Play-by-play vs player box,Fordham,Louis Lesmond,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401830741,2025-11-28,"Franklin Pierce 72, Fordham 74",Fordham,FALSE,Play-by-play vs player box,Fordham,Rikus Schulte,Assists,2,4,2,Play-by-play credits an assist the box score does not
+401830741,2025-11-28,"Franklin Pierce 72, Fordham 74",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Assists,20,19,-1,Assist in the box score has no matching play-by-play event
+401830750,2025-11-28,"Stanford 78, Saint Louis 77",Saint Louis,FALSE,Play-by-play vs player box,Saint Louis,Amari McCottry,Assists,5,3,-2,Assist in the box score has no matching play-by-play event
+401830750,2025-11-28,"Stanford 78, Saint Louis 77",Saint Louis,FALSE,Play-by-play vs team box,Saint Louis,NA,Assists,15,13,-2,Assist in the box score has no matching play-by-play event
+401830917,2025-11-28,"Richmond 71, Charlotte 66",Charlotte,FALSE,Play-by-play vs player box,Charlotte,Anton Bonke,Fouls,3,4,1,Play-by-play has an event the box score does not
+401830917,2025-11-28,"Richmond 71, Charlotte 66",Charlotte,FALSE,Play-by-play vs team box,Charlotte,NA,Fouls,22,23,1,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Eddie Ricks III,Points,11,7,-4,Event in the box score is missing from the play-by-play
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Eddie Ricks III,Field goals made,5,3,-2,Event in the box score is missing from the play-by-play
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Eddie Ricks III,Field goals attempted,10,8,-2,Missed shot missing from the play-by-play
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Gabe Newhof,Points,0,2,2,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Gabe Newhof,Field goals made,0,1,1,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Gabe Newhof,Field goals attempted,0,1,1,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Preston Fowler,Points,0,2,2,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Preston Fowler,Field goals made,0,1,1,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Play-by-play vs player box,James Madison,Preston Fowler,Field goals attempted,2,3,1,Play-by-play has an event the box score does not
+401826702,2025-11-29,"James Madison 66, George Mason 82",George Mason,FALSE,Player box sum vs team box,George Mason,NA,Fouls,11,10,-1,Team line has a foul charged to no player (typically a bench technical)
+401828270,2025-11-29,"UAlbany 68, Fordham 88",Fordham,FALSE,Play-by-play vs player box,Fordham,Akira Jacobs,Field goals attempted,6,7,1,Play-by-play has an event the box score does not
+401828270,2025-11-29,"UAlbany 68, Fordham 88",Fordham,FALSE,Play-by-play vs player box,Fordham,Akira Jacobs,Offensive rebounds,2,3,1,Rebound logged differently in the two sources
+401828270,2025-11-29,"UAlbany 68, Fordham 88",Fordham,FALSE,Play-by-play vs player box,UAlbany,Jaden Kempson,Blocks,0,1,1,Play-by-play has an event the box score does not
+401828270,2025-11-29,"UAlbany 68, Fordham 88",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Field goals attempted,53,54,1,Play-by-play has an event the box score does not
+401828270,2025-11-29,"UAlbany 68, Fordham 88",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Offensive rebounds,10,11,1,Rebound logged differently in the two sources
+401828270,2025-11-29,"UAlbany 68, Fordham 88",Fordham,FALSE,Play-by-play vs team box,UAlbany,NA,Blocks,2,3,1,Play-by-play has an event the box score does not
+401817200,2025-11-30,"St. Bonaventure 70, Florida Atlantic 65",Florida Atlantic,FALSE,Play-by-play vs player box,St. Bonaventure,Achille Lonati,Steals,4,3,-1,Event in the box score is missing from the play-by-play
+401817200,2025-11-30,"St. Bonaventure 70, Florida Atlantic 65",Florida Atlantic,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Steals,0,1,1,Play-by-play has an event the box score does not
+401822669,2025-11-30,"Saint Joseph's 60, Princeton 58",Princeton,FALSE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401822669,2025-11-30,"Saint Joseph's 60, Princeton 58",Princeton,FALSE,Play-by-play vs team box,Saint Joseph's,NA,Assists,12,11,-1,Assist in the box score has no matching play-by-play event
+401813440,2025-12-02,"East Tennessee State 71, Dayton 88",Dayton,FALSE,Play-by-play vs player box,Dayton,De'Shayne Montgomery,Assists,3,4,1,Play-by-play credits an assist the box score does not
+401813440,2025-12-02,"East Tennessee State 71, Dayton 88",Dayton,FALSE,Play-by-play vs player box,Dayton,Javon Bennett,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401813440,2025-12-02,"East Tennessee State 71, Dayton 88",Dayton,FALSE,Play-by-play vs player box,East Tennessee State,Allen Strothers,Assists,3,0,-3,Assist in the box score has no matching play-by-play event
+401813440,2025-12-02,"East Tennessee State 71, Dayton 88",Dayton,FALSE,Play-by-play vs team box,East Tennessee State,NA,Assists,13,10,-3,Assist in the box score has no matching play-by-play event
+401813451,2025-12-02,"William & Mary 83, Duquesne 79",Duquesne,FALSE,Play-by-play vs player box,Duquesne,Jake DiMichele,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401813451,2025-12-02,"William & Mary 83, Duquesne 79",Duquesne,FALSE,Play-by-play vs team box,Duquesne,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401813451,2025-12-02,"William & Mary 83, Duquesne 79",Duquesne,FALSE,Player box sum vs team box,William & Mary,NA,Fouls,19,18,-1,Team line has a foul charged to no player (typically a bench technical)
+401817148,2025-12-02,"George Washington 84, Army 70",Army,FALSE,Play-by-play vs player box,Army,Ryan Curry,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401817148,2025-12-02,"George Washington 84, Army 70",Army,FALSE,Play-by-play vs team box,Army,NA,Assists,20,19,-1,Assist in the box score has no matching play-by-play event
+401817159,2025-12-02,"Central Michigan 72, Loyola Chicago 83",Loyola Chicago,FALSE,Player box sum vs team box,Central Michigan,NA,Fouls,23,22,-1,Team line has a foul charged to no player (typically a bench technical)
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Landon Lewis,Points,6,8,2,Play-by-play has an event the box score does not
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Landon Lewis,Field goals made,3,4,1,Play-by-play has an event the box score does not
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Landon Lewis,Field goals attempted,12,13,1,Play-by-play has an event the box score does not
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Landon Lewis,Offensive rebounds,1,2,1,Rebound logged differently in the two sources
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Malcolm Wrisby-Jefferson,Points,14,12,-2,Event in the box score is missing from the play-by-play
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Malcolm Wrisby-Jefferson,Field goals made,5,4,-1,Event in the box score is missing from the play-by-play
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Malcolm Wrisby-Jefferson,Field goals attempted,10,9,-1,Missed shot missing from the play-by-play
+401817168,2025-12-02,"Brown 56, Rhode Island 66",Rhode Island,FALSE,Play-by-play vs player box,Brown,Malcolm Wrisby-Jefferson,Offensive rebounds,1,0,-1,Rebound logged differently in the two sources
+401817188,2025-12-02,"Saint Louis 91, Loyola Marymount 70",Loyola Marymount,FALSE,Play-by-play vs player box,Loyola Marymount,Myron Amey Jr.,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817188,2025-12-02,"Saint Louis 91, Loyola Marymount 70",Loyola Marymount,FALSE,Play-by-play vs player box,Saint Louis,Quentin Jones,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401817188,2025-12-02,"Saint Louis 91, Loyola Marymount 70",Loyola Marymount,FALSE,Play-by-play vs team box,Loyola Marymount,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401817188,2025-12-02,"Saint Louis 91, Loyola Marymount 70",Loyola Marymount,FALSE,Play-by-play vs team box,Saint Louis,NA,Assists,24,23,-1,Assist in the box score has no matching play-by-play event
+401817201,2025-12-03,"Bloomsburg 43, St. Bonaventure 83",St. Bonaventure,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401817201,2025-12-03,"Bloomsburg 43, St. Bonaventure 83",St. Bonaventure,FALSE,Play-by-play vs player box,St. Bonaventure,Ilia Ermakov,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817201,2025-12-03,"Bloomsburg 43, St. Bonaventure 83",St. Bonaventure,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Assists,25,23,-2,Assist in the box score has no matching play-by-play event
+401828643,2025-12-04,"The Citadel 63, Davidson 79",Davidson,FALSE,Play-by-play vs player box,Davidson,Hunter Adam,Assists,1,2,1,Play-by-play credits an assist the box score does not
+401828643,2025-12-04,"The Citadel 63, Davidson 79",Davidson,FALSE,Play-by-play vs team box,Davidson,NA,Assists,16,17,1,Play-by-play credits an assist the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,De'Shayne Montgomery,Steals,4,2,-2,Event in the box score is missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jacob Conner,Offensive rebounds,2,1,-1,Rebound logged differently in the two sources
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Points,8,5,-3,Event in the box score is missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Field goals made,3,2,-1,Event in the box score is missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Field goals attempted,5,4,-1,Missed shot missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Threes made,2,1,-1,Event in the box score is missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Threes attempted,2,1,-1,Missed shot missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Offensive rebounds,1,2,1,Rebound logged differently in the two sources
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jaiun Simon,Steals,1,2,1,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Jordan Derkack,Steals,0,1,1,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Points,5,8,3,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Field goals made,2,3,1,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Field goals attempted,6,7,1,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Threes made,0,1,1,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Threes attempted,0,1,1,Play-by-play has an event the box score does not
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Virginia,Sam Lewis,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs player box,Virginia,Ugonna Onyenso,Blocks,2,1,-1,Event in the box score is missing from the play-by-play
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs team box,Dayton,NA,Assists,11,10,-1,Assist in the box score has no matching play-by-play event
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs team box,Virginia,NA,Assists,21,20,-1,Assist in the box score has no matching play-by-play event
+401813441,2025-12-06,"Dayton 73, Virginia 86",Virginia,FALSE,Play-by-play vs team box,Virginia,NA,Blocks,4,3,-1,Event in the box score is missing from the play-by-play
+401817149,2025-12-06,"William & Mary 86, George Washington 99",George Washington,FALSE,Play-by-play vs player box,George Washington,Christian Jones,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401817149,2025-12-06,"William & Mary 86, George Washington 99",George Washington,FALSE,Play-by-play vs player box,George Washington,Tre Dinkins,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401817149,2025-12-06,"William & Mary 86, George Washington 99",George Washington,FALSE,Play-by-play vs team box,George Washington,NA,Assists,23,21,-2,Assist in the box score has no matching play-by-play event
+401817169,2025-12-06,"Rhode Island 71, Providence 90",Providence,FALSE,Player minutes vs game length,Providence,NA,Minutes,200,202,2,Player minutes do not add up to the game length
+401817202,2025-12-06,"St. Bonaventure 77, Buffalo 69",Buffalo,FALSE,Play-by-play vs player box,Buffalo,Derrick Talton Jr.,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817202,2025-12-06,"St. Bonaventure 77, Buffalo 69",Buffalo,FALSE,Play-by-play vs player box,St. Bonaventure,Andrew Osasuyi,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817202,2025-12-06,"St. Bonaventure 77, Buffalo 69",Buffalo,FALSE,Play-by-play vs team box,Buffalo,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401817202,2025-12-06,"St. Bonaventure 77, Buffalo 69",Buffalo,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Assists,20,19,-1,Assist in the box score has no matching play-by-play event
+401831238,2025-12-06,"Drexel 64, La Salle 69",La Salle,FALSE,Play-by-play vs player box,Drexel,Shane Blakeney,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401831238,2025-12-06,"Drexel 64, La Salle 69",La Salle,FALSE,Play-by-play vs team box,Drexel,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs player box,Saint Joseph's,Deuce Jones,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs player box,Saint Joseph's,Justice Ajogbor,Blocks,4,3,-1,Event in the box score is missing from the play-by-play
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs player box,Temple,Gavin Griffiths,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs player box,Temple,Jamai Felt,Blocks,3,2,-1,Event in the box score is missing from the play-by-play
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs team box,Saint Joseph's,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs team box,Saint Joseph's,NA,Blocks,6,5,-1,Event in the box score is missing from the play-by-play
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs team box,Temple,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401831239,2025-12-06,"Saint Joseph's 70, Temple 69",Temple,FALSE,Play-by-play vs team box,Temple,NA,Blocks,9,8,-1,Event in the box score is missing from the play-by-play
+401822670,2025-12-09,"Coppin State 65, Saint Joseph's 87",Saint Joseph's,FALSE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Assists,9,8,-1,Assist in the box score has no matching play-by-play event
+401822670,2025-12-09,"Coppin State 65, Saint Joseph's 87",Saint Joseph's,FALSE,Play-by-play vs player box,Saint Joseph's,Deuce Jones,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401822670,2025-12-09,"Coppin State 65, Saint Joseph's 87",Saint Joseph's,FALSE,Play-by-play vs team box,Saint Joseph's,NA,Assists,22,20,-2,Assist in the box score has no matching play-by-play event
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs player box,Fairleigh Dickinson,Raysean Johnson,Steals,1,2,1,Play-by-play has an event the box score does not
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs player box,Fordham,Christian Henry,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs player box,Fordham,Christian Henry,Turnovers,2,3,1,Play-by-play has an event the box score does not
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs player box,Fordham,Dejour Reaves,Turnovers,4,5,1,Play-by-play has an event the box score does not
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs team box,Fairleigh Dickinson,NA,Steals,3,4,1,Play-by-play has an event the box score does not
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401812291,2025-12-10,"Fairleigh Dickinson 54, Fordham 75",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Turnovers,11,13,2,Play-by-play has an event the box score does not
+401813442,2025-12-13,"North Florida 61, Dayton 84",Dayton,FALSE,Play-by-play vs player box,Dayton,Javon Bennett,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401813442,2025-12-13,"North Florida 61, Dayton 84",Dayton,FALSE,Play-by-play vs team box,Dayton,NA,Assists,18,17,-1,Assist in the box score has no matching play-by-play event
+401813454,2025-12-13,"Duquesne 75, Nevada 78",Nevada,FALSE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401813454,2025-12-13,"Duquesne 75, Nevada 78",Nevada,FALSE,Play-by-play vs team box,Duquesne,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Boogie Fland,Field goals attempted,10,9,-1,Missed shot missing from the play-by-play
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Boogie Fland,Threes attempted,5,4,-1,Missed shot missing from the play-by-play
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Thomas Haugh,Field goals attempted,15,16,1,Play-by-play has an event the box score does not
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Thomas Haugh,Threes attempted,7,8,1,Play-by-play has an event the box score does not
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Urban Klavzar,Field goals attempted,5,4,-1,Missed shot missing from the play-by-play
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Urban Klavzar,Threes attempted,4,3,-1,Missed shot missing from the play-by-play
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Xaivian Lee,Field goals attempted,10,11,1,Play-by-play has an event the box score does not
+401817151,2025-12-13,"George Washington 70, Florida 80",Florida,FALSE,Play-by-play vs player box,Florida,Xaivian Lee,Threes attempted,7,8,1,Play-by-play has an event the box score does not
+401817178,2025-12-13,"Southern Illinois 84, Richmond 93",Richmond,FALSE,Play-by-play vs player box,Richmond,David Thomas,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817178,2025-12-13,"Southern Illinois 84, Richmond 93",Richmond,FALSE,Play-by-play vs team box,Richmond,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401817190,2025-12-13,"San Francisco 75, Saint Louis 85",Saint Louis,FALSE,Play-by-play vs player box,Saint Louis,Robbie Avila,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817190,2025-12-13,"San Francisco 75, Saint Louis 85",Saint Louis,FALSE,Play-by-play vs team box,Saint Louis,NA,Assists,20,19,-1,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Field goals attempted,10,11,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Threes attempted,4,3,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Offensive rebounds,1,0,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Defensive rebounds,8,7,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Steals,1,0,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Blocks,0,1,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Aidan Hadaway,Turnovers,3,2,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Ajay Sheldon,Field goals attempted,8,6,-2,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Ajay Sheldon,Threes attempted,8,5,-3,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Dior Conners,Defensive rebounds,0,1,1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Dior Conners,Turnovers,0,1,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Elijah Elliott,Threes attempted,2,1,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Elijah Elliott,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,JJ Kelly,Offensive rebounds,3,2,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,JJ Kelly,Defensive rebounds,1,2,1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,JJ Kelly,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,JJ Kelly,Steals,1,0,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jackson Paveletzke,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jackson Paveletzke,Turnovers,7,4,-3,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Field goals attempted,3,2,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Free throws attempted,4,2,-2,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Offensive rebounds,0,1,1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Defensive rebounds,4,3,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Blocks,2,0,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Turnovers,3,1,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Jalen Breath,Fouls,2,1,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Javan Simmons,Offensive rebounds,2,1,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Javan Simmons,Defensive rebounds,4,3,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Javan Simmons,Turnovers,1,0,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Javan Simmons,Fouls,3,2,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,Ohio,Unknown athlete 4873136,Field goals attempted,0,1,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Achille Lonati,Threes attempted,1,0,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Amar'e Marshall,Points,2,4,2,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Amar'e Marshall,Field goals made,1,2,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Amar'e Marshall,Field goals attempted,3,4,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Amar'e Marshall,Steals,2,0,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Field goals attempted,4,5,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Free throws attempted,6,5,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Defensive rebounds,4,3,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Steals,1,2,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Turnovers,4,2,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Daniel Egbuniwe,Fouls,3,2,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Threes attempted,7,4,-3,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Offensive rebounds,0,2,2,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Turnovers,1,2,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Points,17,15,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Field goals made,6,5,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Field goals attempted,13,12,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Offensive rebounds,1,0,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Assists,7,5,-2,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Steals,3,1,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Fouls,3,4,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Free throws attempted,5,4,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Offensive rebounds,10,9,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Assists,3,1,-2,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Steals,2,1,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Fouls,5,4,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Ilia Ermakov,Threes attempted,1,0,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Ilia Ermakov,Turnovers,2,1,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Joe Grahovac,Threes attempted,2,1,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Joe Grahovac,Defensive rebounds,5,4,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Joe Grahovac,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs player box,St. Bonaventure,Joe Grahovac,Fouls,2,0,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Field goals attempted,64,63,-1,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Threes attempted,23,18,-5,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Free throws attempted,15,13,-2,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Offensive rebounds,8,6,-2,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Defensive rebounds,22,21,-1,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Assists,14,10,-4,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Steals,3,1,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Blocks,4,3,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Turnovers,16,11,-5,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,Ohio,NA,Fouls,16,14,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Field goals attempted,70,71,1,Play-by-play has an event the box score does not
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Threes attempted,16,10,-6,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Free throws attempted,21,19,-2,Missed shot missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Defensive rebounds,21,19,-2,Rebound logged differently in the two sources
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Assists,16,12,-4,Assist in the box score has no matching play-by-play event
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Steals,10,6,-4,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Turnovers,16,14,-2,Event in the box score is missing from the play-by-play
+401817204,2025-12-13,"St. Bonaventure 83, Ohio 88",Ohio,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Fouls,17,14,-3,Event in the box score is missing from the play-by-play
+401826704,2025-12-13,"Old Dominion 61, George Mason 73",George Mason,FALSE,Play-by-play vs player box,George Mason,Jahari Long,Defensive rebounds,4,5,1,Rebound logged differently in the two sources
+401826704,2025-12-13,"Old Dominion 61, George Mason 73",George Mason,FALSE,Play-by-play vs player box,George Mason,Masai Troutman,Offensive rebounds,1,2,1,Rebound logged differently in the two sources
+401826704,2025-12-13,"Old Dominion 61, George Mason 73",George Mason,FALSE,Play-by-play vs player box,George Mason,Riley Allenspach,Offensive rebounds,4,3,-1,Rebound logged differently in the two sources
+401826704,2025-12-13,"Old Dominion 61, George Mason 73",George Mason,FALSE,Play-by-play vs player box,George Mason,Riley Allenspach,Defensive rebounds,4,3,-1,Rebound logged differently in the two sources
+401826704,2025-12-13,"Old Dominion 61, George Mason 73",George Mason,FALSE,Play-by-play vs player box,Old Dominion,Caelum Swanton-Rodger,Blocks,4,2,-2,Event in the box score is missing from the play-by-play
+401826704,2025-12-13,"Old Dominion 61, George Mason 73",George Mason,FALSE,Play-by-play vs team box,Old Dominion,NA,Blocks,6,4,-2,Event in the box score is missing from the play-by-play
+401817161,2025-12-14,"Chicago State 84, Loyola Chicago 75",Loyola Chicago,FALSE,Play-by-play vs player box,Loyola Chicago,Justin Moore,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401817161,2025-12-14,"Chicago State 84, Loyola Chicago 75",Loyola Chicago,FALSE,Play-by-play vs team box,Loyola Chicago,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401813443,2025-12-16,"Florida State 69, Dayton 97",Dayton,FALSE,Play-by-play vs player box,Dayton,Keonte Jones,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401813443,2025-12-16,"Florida State 69, Dayton 97",Dayton,FALSE,Play-by-play vs player box,Florida State,Robert McCray V,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401813443,2025-12-16,"Florida State 69, Dayton 97",Dayton,FALSE,Play-by-play vs team box,Dayton,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401813443,2025-12-16,"Florida State 69, Dayton 97",Dayton,FALSE,Play-by-play vs team box,Florida State,NA,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401813443,2025-12-16,"Florida State 69, Dayton 97",Dayton,FALSE,Player box sum vs team box,Florida State,NA,Fouls,31,30,-1,Team line has a foul charged to no player (typically a bench technical)
+401817162,2025-12-17,"Loyola Chicago 71, San Francisco 85",San Francisco,FALSE,Play-by-play vs player box,San Francisco,Mookie Cook,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817162,2025-12-17,"Loyola Chicago 71, San Francisco 85",San Francisco,FALSE,Play-by-play vs team box,San Francisco,NA,Assists,18,17,-1,Assist in the box score has no matching play-by-play event
+401817179,2025-12-17,"Richmond 70, Elon 73",Elon,FALSE,Play-by-play vs player box,Richmond,Mike Walz,Field goals attempted,4,5,1,Play-by-play has an event the box score does not
+401817179,2025-12-17,"Richmond 70, Elon 73",Elon,FALSE,Play-by-play vs player box,Richmond,Mike Walz,Threes attempted,2,3,1,Play-by-play has an event the box score does not
+401817179,2025-12-17,"Richmond 70, Elon 73",Elon,FALSE,Play-by-play vs player box,Richmond,Mikkel Tyne,Field goals attempted,5,4,-1,Missed shot missing from the play-by-play
+401817179,2025-12-17,"Richmond 70, Elon 73",Elon,FALSE,Play-by-play vs player box,Richmond,Mikkel Tyne,Threes attempted,4,3,-1,Missed shot missing from the play-by-play
+401822741,2025-12-18,"American University 83, VCU 105",VCU,FALSE,Player box sum vs team box,VCU,NA,Fouls,18,17,-1,Team line has a foul charged to no player (typically a bench technical)
+401826840,2025-12-18,"Temple 68, Davidson 63",Davidson,FALSE,Play-by-play vs player box,Davidson,Manie Joses,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401826840,2025-12-18,"Temple 68, Davidson 63",Davidson,FALSE,Play-by-play vs team box,Davidson,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401817205,2025-12-20,"Le Moyne 81, St. Bonaventure 92",St. Bonaventure,FALSE,Play-by-play vs player box,Le Moyne,Jakai Sanders,Assists,16,13,-3,Assist in the box score has no matching play-by-play event
+401817205,2025-12-20,"Le Moyne 81, St. Bonaventure 92",St. Bonaventure,FALSE,Play-by-play vs player box,Le Moyne,Shilo Jackson,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401817205,2025-12-20,"Le Moyne 81, St. Bonaventure 92",St. Bonaventure,FALSE,Play-by-play vs player box,St. Bonaventure,Frank Mitchell,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817205,2025-12-20,"Le Moyne 81, St. Bonaventure 92",St. Bonaventure,FALSE,Play-by-play vs team box,Le Moyne,NA,Assists,21,17,-4,Assist in the box score has no matching play-by-play event
+401817205,2025-12-20,"Le Moyne 81, St. Bonaventure 92",St. Bonaventure,FALSE,Play-by-play vs team box,St. Bonaventure,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401824124,2025-12-20,"Loyola Chicago 80, Santa Clara 78",Santa Clara,FALSE,Play-by-play vs player box,Loyola Chicago,Justin Moore,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401824124,2025-12-20,"Loyola Chicago 80, Santa Clara 78",Santa Clara,FALSE,Play-by-play vs player box,Loyola Chicago,Miles Rubin,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401824124,2025-12-20,"Loyola Chicago 80, Santa Clara 78",Santa Clara,FALSE,Play-by-play vs player box,Santa Clara,Elijah Mahi,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401824124,2025-12-20,"Loyola Chicago 80, Santa Clara 78",Santa Clara,FALSE,Play-by-play vs team box,Loyola Chicago,NA,Assists,11,9,-2,Assist in the box score has no matching play-by-play event
+401824124,2025-12-20,"Loyola Chicago 80, Santa Clara 78",Santa Clara,FALSE,Play-by-play vs team box,Santa Clara,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401824124,2025-12-20,"Loyola Chicago 80, Santa Clara 78",Santa Clara,FALSE,Player box sum vs team box,Loyola Chicago,NA,Fouls,16,15,-1,Team line has a foul charged to no player (typically a bench technical)
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Jahari Long,Assists,4,5,1,Play-by-play credits an assist the box score does not
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Kory Mincy,Field goals attempted,16,15,-1,Missed shot missing from the play-by-play
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Kory Mincy,Threes attempted,5,4,-1,Missed shot missing from the play-by-play
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Kory Mincy,Defensive rebounds,3,4,1,Rebound logged differently in the two sources
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Malik Presley,Field goals attempted,5,6,1,Play-by-play has an event the box score does not
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Malik Presley,Threes attempted,1,2,1,Play-by-play has an event the box score does not
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Malik Presley,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401820192,2025-12-21,"Loyola Maryland 79, George Mason 86",George Mason,FALSE,Play-by-play vs player box,George Mason,Riley Allenspach,Defensive rebounds,6,5,-1,Rebound logged differently in the two sources
+401822185,2025-12-21,"La Salle 50, Michigan 102",Michigan,FALSE,Play-by-play vs player box,Michigan,Morez Johnson Jr.,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401822185,2025-12-21,"La Salle 50, Michigan 102",Michigan,FALSE,Play-by-play vs team box,Michigan,NA,Assists,25,24,-1,Assist in the box score has no matching play-by-play event
+401813357,2025-12-22,"Canisius 59, Duquesne 103",Duquesne,FALSE,Play-by-play vs player box,Duquesne,David Dixon,Fouls,3,4,1,Play-by-play has an event the box score does not
+401813357,2025-12-22,"Canisius 59, Duquesne 103",Duquesne,FALSE,Play-by-play vs team box,Duquesne,NA,Fouls,21,22,1,Play-by-play has an event the box score does not
+401822171,2025-12-22,"New Haven 47, Fordham 65",Fordham,FALSE,Play-by-play vs player box,Fordham,Akira Jacobs,Threes attempted,4,3,-1,Missed shot missing from the play-by-play
+401822171,2025-12-22,"New Haven 47, Fordham 65",Fordham,FALSE,Play-by-play vs player box,Fordham,Christian Henry,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401822171,2025-12-22,"New Haven 47, Fordham 65",Fordham,FALSE,Play-by-play vs player box,Fordham,Roor Akhuar,Assists,1,2,1,Play-by-play credits an assist the box score does not
+401822171,2025-12-22,"New Haven 47, Fordham 65",Fordham,FALSE,Play-by-play vs team box,Fordham,NA,Threes attempted,18,17,-1,Missed shot missing from the play-by-play
+401813455,2025-12-27,"Cleary University 49, Duquesne 99",Duquesne,FALSE,Play-by-play vs player box,Cleary University,Brian Everhart,Field goals attempted,6,5,-1,Missed shot missing from the play-by-play
+401813455,2025-12-27,"Cleary University 49, Duquesne 99",Duquesne,FALSE,Play-by-play vs player box,Cleary University,Brian Everhart,Threes attempted,5,4,-1,Missed shot missing from the play-by-play
+401813455,2025-12-27,"Cleary University 49, Duquesne 99",Duquesne,FALSE,Play-by-play vs player box,Cleary University,Brian Everhart,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401813455,2025-12-27,"Cleary University 49, Duquesne 99",Duquesne,FALSE,Play-by-play vs player box,Cleary University,Unknown athlete 5185957,Field goals attempted,0,1,1,Play-by-play has an event the box score does not
+401813455,2025-12-27,"Cleary University 49, Duquesne 99",Duquesne,FALSE,Play-by-play vs player box,Cleary University,Unknown athlete 5185957,Threes attempted,0,1,1,Play-by-play has an event the box score does not
+401813455,2025-12-27,"Cleary University 49, Duquesne 99",Duquesne,FALSE,Play-by-play vs player box,Cleary University,Unknown athlete 5185957,Assists,0,1,1,Play-by-play credits an assist the box score does not
+401817181,2025-12-28,"Charleston Southern 77, Richmond 72",Richmond,FALSE,Play-by-play vs player box,Richmond,Jonathan Beagle,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401817181,2025-12-28,"Charleston Southern 77, Richmond 72",Richmond,FALSE,Play-by-play vs team box,Richmond,NA,Assists,10,9,-1,Assist in the box score has no matching play-by-play event
+401817193,2025-12-28,"Principia 33, Saint Louis 114",Saint Louis,FALSE,Play-by-play vs player box,Saint Louis,Isaac Holmes,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401817193,2025-12-28,"Principia 33, Saint Louis 114",Saint Louis,FALSE,Play-by-play vs team box,Saint Louis,NA,Assists,25,24,-1,Assist in the box score has no matching play-by-play event
+401828347,2025-12-31,"Loyola Chicago 61, Rhode Island 57",Rhode Island,TRUE,Play-by-play vs player box,Loyola Chicago,Miles Rubin,Blocks,2,1,-1,Event in the box score is missing from the play-by-play
+401828347,2025-12-31,"Loyola Chicago 61, Rhode Island 57",Rhode Island,TRUE,Play-by-play vs player box,Loyola Chicago,Xavier Amos,Blocks,1,2,1,Play-by-play has an event the box score does not
+401828348,2025-12-31,"St. Bonaventure 82, VCU 89",VCU,TRUE,Play-by-play vs player box,VCU,Jadrian Tracey,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828348,2025-12-31,"St. Bonaventure 82, VCU 89",VCU,TRUE,Play-by-play vs team box,VCU,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401828354,2026-01-03,"La Salle 55, George Washington 77",George Washington,TRUE,Play-by-play vs player box,George Washington,Christian Jones,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828354,2026-01-03,"La Salle 55, George Washington 77",George Washington,TRUE,Play-by-play vs player box,La Salle,Jaden Johnson,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401828354,2026-01-03,"La Salle 55, George Washington 77",George Washington,TRUE,Play-by-play vs team box,George Washington,NA,Assists,18,17,-1,Assist in the box score has no matching play-by-play event
+401828354,2026-01-03,"La Salle 55, George Washington 77",George Washington,TRUE,Play-by-play vs team box,La Salle,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401828354,2026-01-03,"La Salle 55, George Washington 77",George Washington,TRUE,Player box sum vs team box,La Salle,NA,Fouls,11,10,-1,Team line has a foul charged to no player (typically a bench technical)
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs player box,Fordham,Jack Whitbourn,Steals,0,1,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs player box,Fordham,Jack Whitbourn,Turnovers,3,4,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs player box,Richmond,Jaden Daughtry,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs player box,Richmond,Mike Walz,Turnovers,0,1,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs player box,Richmond,Will Harper III,Steals,0,1,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs team box,Fordham,NA,Steals,1,2,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs team box,Fordham,NA,Turnovers,13,14,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs team box,Richmond,NA,Assists,21,20,-1,Assist in the box score has no matching play-by-play event
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs team box,Richmond,NA,Steals,7,8,1,Play-by-play has an event the box score does not
+401828355,2026-01-04,"Richmond 83, Fordham 75",Fordham,TRUE,Play-by-play vs team box,Richmond,NA,Turnovers,4,5,1,Play-by-play has an event the box score does not
+401828357,2026-01-07,"Davidson 79, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs player box,Davidson,JaQualon Roberts,Blocks,0,1,1,Play-by-play has an event the box score does not
+401828357,2026-01-07,"Davidson 79, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs player box,Davidson,Manie Joses,Blocks,3,1,-2,Event in the box score is missing from the play-by-play
+401828357,2026-01-07,"Davidson 79, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs player box,Loyola Chicago,Miles Rubin,Blocks,2,1,-1,Event in the box score is missing from the play-by-play
+401828357,2026-01-07,"Davidson 79, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs team box,Davidson,NA,Blocks,6,5,-1,Event in the box score is missing from the play-by-play
+401828357,2026-01-07,"Davidson 79, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Blocks,3,2,-1,Event in the box score is missing from the play-by-play
+401828358,2026-01-07,"Duquesne 90, Saint Joseph's 97",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Points,23,22,-1,Event in the box score is missing from the play-by-play
+401828358,2026-01-07,"Duquesne 90, Saint Joseph's 97",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Free throws made,10,9,-1,Event in the box score is missing from the play-by-play
+401828358,2026-01-07,"Duquesne 90, Saint Joseph's 97",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Free throws attempted,11,9,-2,Missed shot missing from the play-by-play
+401828358,2026-01-07,"Duquesne 90, Saint Joseph's 97",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Khaafiq Myers,Points,9,10,1,Play-by-play has an event the box score does not
+401828358,2026-01-07,"Duquesne 90, Saint Joseph's 97",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Khaafiq Myers,Free throws made,1,2,1,Play-by-play has an event the box score does not
+401828358,2026-01-07,"Duquesne 90, Saint Joseph's 97",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Khaafiq Myers,Free throws attempted,2,4,2,Play-by-play has an event the box score does not
+401828361,2026-01-07,"Richmond 89, St. Bonaventure 80",St. Bonaventure,TRUE,Play-by-play vs player box,Richmond,Mike Walz,Blocks,3,2,-1,Event in the box score is missing from the play-by-play
+401828361,2026-01-07,"Richmond 89, St. Bonaventure 80",St. Bonaventure,TRUE,Play-by-play vs player box,Richmond,Mikkel Tyne,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828361,2026-01-07,"Richmond 89, St. Bonaventure 80",St. Bonaventure,TRUE,Play-by-play vs team box,Richmond,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401828361,2026-01-07,"Richmond 89, St. Bonaventure 80",St. Bonaventure,TRUE,Play-by-play vs team box,Richmond,NA,Blocks,4,3,-1,Event in the box score is missing from the play-by-play
+401828362,2026-01-07,"Saint Louis 71, VCU 62",VCU,TRUE,Play-by-play vs player box,Saint Louis,Brady Dunlap,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828362,2026-01-07,"Saint Louis 71, VCU 62",VCU,TRUE,Play-by-play vs player box,VCU,Terrence Hill Jr.,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828362,2026-01-07,"Saint Louis 71, VCU 62",VCU,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401828362,2026-01-07,"Saint Louis 71, VCU 62",VCU,TRUE,Play-by-play vs team box,VCU,NA,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401828364,2026-01-10,"Fordham 81, St. Bonaventure 77",St. Bonaventure,TRUE,Play-by-play vs player box,Fordham,Christian Henry,Assists,9,7,-2,Assist in the box score has no matching play-by-play event
+401828364,2026-01-10,"Fordham 81, St. Bonaventure 77",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828364,2026-01-10,"Fordham 81, St. Bonaventure 77",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828364,2026-01-10,"Fordham 81, St. Bonaventure 77",St. Bonaventure,TRUE,Play-by-play vs team box,Fordham,NA,Assists,17,15,-2,Assist in the box score has no matching play-by-play event
+401828364,2026-01-10,"Fordham 81, St. Bonaventure 77",St. Bonaventure,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,13,11,-2,Assist in the box score has no matching play-by-play event
+401828365,2026-01-10,"VCU 80, George Mason 86",George Mason,TRUE,Play-by-play vs player box,George Mason,Jahari Long,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401828365,2026-01-10,"VCU 80, George Mason 86",George Mason,TRUE,Play-by-play vs player box,George Mason,Masai Troutman,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828365,2026-01-10,"VCU 80, George Mason 86",George Mason,TRUE,Play-by-play vs team box,George Mason,NA,Assists,16,14,-2,Assist in the box score has no matching play-by-play event
+401828368,2026-01-11,"Saint Joseph's 67, Richmond 65",Richmond,TRUE,Play-by-play vs player box,Richmond,Mikkel Tyne,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828368,2026-01-11,"Saint Joseph's 67, Richmond 65",Richmond,TRUE,Play-by-play vs team box,Richmond,NA,Assists,10,9,-1,Assist in the box score has no matching play-by-play event
+401828371,2026-01-14,"Davidson 84, George Washington 79",George Washington,TRUE,Play-by-play vs player box,Davidson,Hunter Adam,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401828371,2026-01-14,"Davidson 84, George Washington 79",George Washington,TRUE,Play-by-play vs player box,Davidson,Ian Platteeuw,Blocks,0,1,1,Play-by-play has an event the box score does not
+401828371,2026-01-14,"Davidson 84, George Washington 79",George Washington,TRUE,Play-by-play vs player box,Davidson,Manie Joses,Blocks,2,1,-1,Event in the box score is missing from the play-by-play
+401828371,2026-01-14,"Davidson 84, George Washington 79",George Washington,TRUE,Play-by-play vs player box,Davidson,Nick Coval,Blocks,0,1,1,Play-by-play has an event the box score does not
+401828371,2026-01-14,"Davidson 84, George Washington 79",George Washington,TRUE,Play-by-play vs player box,George Washington,Christian Jones,Steals,4,3,-1,Event in the box score is missing from the play-by-play
+401828371,2026-01-14,"Davidson 84, George Washington 79",George Washington,TRUE,Play-by-play vs player box,George Washington,Rafael Castro,Steals,0,1,1,Play-by-play has an event the box score does not
+401828372,2026-01-14,"Fordham 56, Saint Louis 78",Saint Louis,TRUE,Play-by-play vs player box,Saint Louis,Robbie Avila,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401828372,2026-01-14,"Fordham 56, Saint Louis 78",Saint Louis,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401828373,2026-01-14,"La Salle 53, Richmond 74",Richmond,TRUE,Play-by-play vs player box,La Salle,Jaeden Marshall,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828373,2026-01-14,"La Salle 53, Richmond 74",Richmond,TRUE,Play-by-play vs team box,La Salle,NA,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401828376,2026-01-16,"Loyola Chicago 51, Dayton 78",Dayton,TRUE,Play-by-play vs player box,Dayton,Javon Bennett,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828376,2026-01-16,"Loyola Chicago 51, Dayton 78",Dayton,TRUE,Play-by-play vs team box,Dayton,NA,Assists,11,10,-1,Assist in the box score has no matching play-by-play event
+401828377,2026-01-17,"Duquesne 74, Fordham 63",Fordham,TRUE,Play-by-play vs player box,Fordham,Dejour Reaves,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828377,2026-01-17,"Duquesne 74, Fordham 63",Fordham,TRUE,Play-by-play vs team box,Fordham,NA,Assists,10,9,-1,Assist in the box score has no matching play-by-play event
+401828378,2026-01-17,"St. Bonaventure 74, La Salle 78",La Salle,TRUE,Play-by-play vs player box,La Salle,Jaeden Marshall,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828378,2026-01-17,"St. Bonaventure 74, La Salle 78",La Salle,TRUE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828378,2026-01-17,"St. Bonaventure 74, La Salle 78",La Salle,TRUE,Play-by-play vs team box,La Salle,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401828378,2026-01-17,"St. Bonaventure 74, La Salle 78",La Salle,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,23,22,-1,Assist in the box score has no matching play-by-play event
+401828381,2026-01-19,"Saint Joseph's 72, VCU 79",VCU,TRUE,Play-by-play vs player box,VCU,Lazar Djokovic,Assists,2,3,1,Play-by-play credits an assist the box score does not
+401828381,2026-01-19,"Saint Joseph's 72, VCU 79",VCU,TRUE,Play-by-play vs player box,VCU,Terrence Hill Jr.,Assists,8,9,1,Play-by-play credits an assist the box score does not
+401828381,2026-01-19,"Saint Joseph's 72, VCU 79",VCU,TRUE,Play-by-play vs team box,VCU,NA,Assists,17,19,2,Play-by-play credits an assist the box score does not
+401828382,2026-01-20,"Saint Louis 81, Duquesne 77",Duquesne,TRUE,Play-by-play vs player box,Saint Louis,Dion Brown,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828382,2026-01-20,"Saint Louis 81, Duquesne 77",Duquesne,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401828383,2026-01-20,"Loyola Chicago 70, St. Bonaventure 84",St. Bonaventure,TRUE,Play-by-play vs player box,Loyola Chicago,Caleb Reese,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401828383,2026-01-20,"Loyola Chicago 70, St. Bonaventure 84",St. Bonaventure,TRUE,Play-by-play vs player box,Loyola Chicago,Nic Anderson,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828383,2026-01-20,"Loyola Chicago 70, St. Bonaventure 84",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Assists,8,6,-2,Assist in the box score has no matching play-by-play event
+401828383,2026-01-20,"Loyola Chicago 70, St. Bonaventure 84",St. Bonaventure,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Assists,18,16,-2,Assist in the box score has no matching play-by-play event
+401828383,2026-01-20,"Loyola Chicago 70, St. Bonaventure 84",St. Bonaventure,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,18,16,-2,Assist in the box score has no matching play-by-play event
+401828385,2026-01-21,"Dayton 64, La Salle 67",La Salle,TRUE,Play-by-play vs player box,La Salle,Jaden Johnson,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401828385,2026-01-21,"Dayton 64, La Salle 67",La Salle,TRUE,Play-by-play vs team box,La Salle,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401828387,2026-01-23,"Saint Louis 97, St. Bonaventure 62",St. Bonaventure,TRUE,Play-by-play vs player box,Saint Louis,Kellen Thames,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828387,2026-01-23,"Saint Louis 97, St. Bonaventure 62",St. Bonaventure,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,24,23,-1,Assist in the box score has no matching play-by-play event
+401828390,2026-01-24,"Duquesne 71, Loyola Chicago 59",Loyola Chicago,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Fouls,19,20,1,Play-by-play has an event the box score does not
+401828391,2026-01-24,"George Mason 65, Rhode Island 74",Rhode Island,TRUE,Player box sum vs team box,George Mason,NA,Fouls,23,22,-1,Team line has a foul charged to no player (typically a bench technical)
+401828392,2026-01-24,"Richmond 69, George Washington 85",George Washington,TRUE,Play-by-play vs player box,Richmond,Jaylen Robinson,Assists,3,1,-2,Assist in the box score has no matching play-by-play event
+401828392,2026-01-24,"Richmond 69, George Washington 85",George Washington,TRUE,Play-by-play vs player box,Richmond,Will Harper III,Assists,1,2,1,Play-by-play credits an assist the box score does not
+401828392,2026-01-24,"Richmond 69, George Washington 85",George Washington,TRUE,Play-by-play vs team box,Richmond,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401828393,2026-01-27,"Rhode Island 81, Dayton 76",Dayton,TRUE,Play-by-play vs player box,Dayton,Javon Bennett,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401828393,2026-01-27,"Rhode Island 81, Dayton 76",Dayton,TRUE,Play-by-play vs player box,Dayton,Keonte Jones,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828393,2026-01-27,"Rhode Island 81, Dayton 76",Dayton,TRUE,Play-by-play vs team box,Dayton,NA,Assists,16,14,-2,Assist in the box score has no matching play-by-play event
+401828394,2026-01-27,"George Washington 76, Saint Louis 79",Saint Louis,TRUE,Play-by-play vs player box,Saint Louis,Amari McCottry,Assists,3,4,1,Play-by-play credits an assist the box score does not
+401828394,2026-01-27,"George Washington 76, Saint Louis 79",Saint Louis,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,17,18,1,Play-by-play credits an assist the box score does not
+401828395,2026-01-27,"Saint Joseph's 85, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Assists,10,11,1,Play-by-play credits an assist the box score does not
+401828395,2026-01-27,"Saint Joseph's 85, Loyola Chicago 64",Loyola Chicago,TRUE,Play-by-play vs player box,Saint Joseph's,Justice Ajogbor,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828398,2026-01-28,"St. Bonaventure 87, Duquesne 79",Duquesne,TRUE,Play-by-play vs player box,Duquesne,David Dixon,Turnovers,1,2,1,Play-by-play has an event the box score does not
+401828398,2026-01-28,"St. Bonaventure 87, Duquesne 79",Duquesne,TRUE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Turnovers,3,4,1,Play-by-play has an event the box score does not
+401828398,2026-01-28,"St. Bonaventure 87, Duquesne 79",Duquesne,TRUE,Play-by-play vs team box,Duquesne,NA,Turnovers,9,10,1,Play-by-play has an event the box score does not
+401828398,2026-01-28,"St. Bonaventure 87, Duquesne 79",Duquesne,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Turnovers,7,8,1,Play-by-play has an event the box score does not
+401828399,2026-01-28,"La Salle 58, Fordham 64",Fordham,TRUE,Play-by-play vs player box,La Salle,Ashton Walker,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828399,2026-01-28,"La Salle 58, Fordham 64",Fordham,TRUE,Play-by-play vs player box,La Salle,Jerome Brewer Jr.,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828399,2026-01-28,"La Salle 58, Fordham 64",Fordham,TRUE,Play-by-play vs player box,La Salle,Rob Dockery,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401828399,2026-01-28,"La Salle 58, Fordham 64",Fordham,TRUE,Play-by-play vs team box,La Salle,NA,Assists,11,8,-3,Assist in the box score has no matching play-by-play event
+401828401,2026-01-30,"Loyola Chicago 75, VCU 89",VCU,TRUE,Play-by-play vs player box,Loyola Chicago,Miles Rubin,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401828401,2026-01-30,"Loyola Chicago 75, VCU 89",VCU,TRUE,Play-by-play vs player box,VCU,Brandon Jennings,Fouls,2,3,1,Play-by-play has an event the box score does not
+401828401,2026-01-30,"Loyola Chicago 75, VCU 89",VCU,TRUE,Play-by-play vs player box,VCU,Terrence Hill Jr.,Assists,5,6,1,Play-by-play credits an assist the box score does not
+401828401,2026-01-30,"Loyola Chicago 75, VCU 89",VCU,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401828401,2026-01-30,"Loyola Chicago 75, VCU 89",VCU,TRUE,Play-by-play vs team box,VCU,NA,Assists,17,18,1,Play-by-play credits an assist the box score does not
+401828401,2026-01-30,"Loyola Chicago 75, VCU 89",VCU,TRUE,Play-by-play vs team box,VCU,NA,Fouls,15,16,1,Play-by-play has an event the box score does not
+401828404,2026-01-31,"George Mason 77, St. Bonaventure 73",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Assists,8,6,-2,Assist in the box score has no matching play-by-play event
+401828404,2026-01-31,"George Mason 77, St. Bonaventure 73",St. Bonaventure,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,17,15,-2,Assist in the box score has no matching play-by-play event
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Alex Williams,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Alex Williams,Steals,0,1,1,Play-by-play has an event the box score does not
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Jake DiMichele,Assists,0,1,1,Play-by-play credits an assist the box score does not
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Jakub Necas,Offensive rebounds,1,2,1,Rebound logged differently in the two sources
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Jimmie Williams,Steals,2,1,-1,Event in the box score is missing from the play-by-play
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,John Hugley IV,Offensive rebounds,2,1,-1,Rebound logged differently in the two sources
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,John Hugley IV,Turnovers,4,3,-1,Event in the box score is missing from the play-by-play
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Rhode Island,Drissa Traore,Steals,1,0,-1,Event in the box score is missing from the play-by-play
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Rhode Island,Jahmere Tripp,Field goals attempted,12,11,-1,Missed shot missing from the play-by-play
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Rhode Island,Jahmere Tripp,Threes attempted,5,4,-1,Missed shot missing from the play-by-play
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Rhode Island,Jalen Harper,Field goals attempted,2,3,1,Play-by-play has an event the box score does not
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs player box,Rhode Island,Jalen Harper,Threes attempted,2,3,1,Play-by-play has an event the box score does not
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs team box,Duquesne,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs team box,Duquesne,NA,Turnovers,15,14,-1,Event in the box score is missing from the play-by-play
+401828406,2026-02-01,"Rhode Island 61, Duquesne 76",Duquesne,TRUE,Play-by-play vs team box,Rhode Island,NA,Steals,6,5,-1,Event in the box score is missing from the play-by-play
+401828409,2026-02-03,"VCU 63, Fordham 59",Fordham,TRUE,Play-by-play vs player box,VCU,Brandon Jennings,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828409,2026-02-03,"VCU 63, Fordham 59",Fordham,TRUE,Play-by-play vs team box,Fordham,NA,Fouls,21,22,1,Play-by-play has an event the box score does not
+401828409,2026-02-03,"VCU 63, Fordham 59",Fordham,TRUE,Play-by-play vs team box,VCU,NA,Assists,12,11,-1,Assist in the box score has no matching play-by-play event
+401828410,2026-02-03,"La Salle 61, Loyola Chicago 71",Loyola Chicago,TRUE,Play-by-play vs player box,La Salle,Ashton Walker,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828410,2026-02-03,"La Salle 61, Loyola Chicago 71",Loyola Chicago,TRUE,Play-by-play vs player box,La Salle,Jaden Johnson,Assists,8,7,-1,Assist in the box score has no matching play-by-play event
+401828410,2026-02-03,"La Salle 61, Loyola Chicago 71",Loyola Chicago,TRUE,Play-by-play vs player box,Loyola Chicago,Alexander Richardson,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828410,2026-02-03,"La Salle 61, Loyola Chicago 71",Loyola Chicago,TRUE,Play-by-play vs team box,La Salle,NA,Assists,13,11,-2,Assist in the box score has no matching play-by-play event
+401828410,2026-02-03,"La Salle 61, Loyola Chicago 71",Loyola Chicago,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401828412,2026-02-04,"George Washington 73, Saint Joseph's 76",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401828412,2026-02-04,"George Washington 73, Saint Joseph's 76",Saint Joseph's,TRUE,Play-by-play vs team box,Saint Joseph's,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401828413,2026-02-06,"Loyola Chicago 64, Davidson 84",Davidson,TRUE,Play-by-play vs player box,Davidson,Hunter Adam,Assists,1,2,1,Play-by-play credits an assist the box score does not
+401828413,2026-02-06,"Loyola Chicago 64, Davidson 84",Davidson,TRUE,Play-by-play vs player box,Davidson,JaQualon Roberts,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401828413,2026-02-06,"Loyola Chicago 64, Davidson 84",Davidson,TRUE,Play-by-play vs player box,Davidson,Sean Logan,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401828413,2026-02-06,"Loyola Chicago 64, Davidson 84",Davidson,TRUE,Play-by-play vs team box,Davidson,NA,Assists,16,17,1,Play-by-play credits an assist the box score does not
+401828413,2026-02-06,"Loyola Chicago 64, Davidson 84",Davidson,TRUE,Play-by-play vs team box,Davidson,NA,Blocks,3,1,-2,Event in the box score is missing from the play-by-play
+401828414,2026-02-06,"Dayton 73, VCU 99",VCU,TRUE,Play-by-play vs player box,VCU,Tyrell Ward,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828414,2026-02-06,"Dayton 73, VCU 99",VCU,TRUE,Play-by-play vs team box,VCU,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401858786,2026-02-09,"Mid Atlantic Christian 53, Davidson 114",Davidson,FALSE,Player box sum vs team box,Mid Atlantic Christian,NA,Fouls,16,15,-1,Team line has a foul charged to no player (typically a bench technical)
+401828420,2026-02-10,"Fordham 68, Saint Joseph's 64",Saint Joseph's,TRUE,Play-by-play vs player box,Fordham,Abass Bodija,Defensive rebounds,8,7,-1,Rebound logged differently in the two sources
+401828420,2026-02-10,"Fordham 68, Saint Joseph's 64",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Offensive rebounds,1,2,1,Rebound logged differently in the two sources
+401828420,2026-02-10,"Fordham 68, Saint Joseph's 64",Saint Joseph's,TRUE,Play-by-play vs team box,Fordham,NA,Defensive rebounds,26,25,-1,Rebound logged differently in the two sources
+401828420,2026-02-10,"Fordham 68, Saint Joseph's 64",Saint Joseph's,TRUE,Play-by-play vs team box,Saint Joseph's,NA,Offensive rebounds,10,11,1,Rebound logged differently in the two sources
+401828422,2026-02-10,"Rhode Island 70, George Washington 75",George Washington,TRUE,Play-by-play vs player box,George Washington,Tre Dinkins,Assists,0,1,1,Play-by-play credits an assist the box score does not
+401828422,2026-02-10,"Rhode Island 70, George Washington 75",George Washington,TRUE,Play-by-play vs player box,Rhode Island,RJ Johnson,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401828422,2026-02-10,"Rhode Island 70, George Washington 75",George Washington,TRUE,Play-by-play vs team box,George Washington,NA,Assists,15,16,1,Play-by-play credits an assist the box score does not
+401828422,2026-02-10,"Rhode Island 70, George Washington 75",George Washington,TRUE,Play-by-play vs team box,Rhode Island,NA,Assists,11,10,-1,Assist in the box score has no matching play-by-play event
+401828424,2026-02-13,"George Mason 53, George Washington 72",George Washington,TRUE,Play-by-play vs player box,George Mason,Jahari Long,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828424,2026-02-13,"George Mason 53, George Washington 72",George Washington,TRUE,Play-by-play vs team box,George Mason,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401828425,2026-02-13,"Saint Louis 86, Loyola Chicago 59",Loyola Chicago,TRUE,Play-by-play vs player box,Saint Louis,Amari McCottry,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401828425,2026-02-13,"Saint Louis 86, Loyola Chicago 59",Loyola Chicago,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,23,22,-1,Assist in the box score has no matching play-by-play event
+401828426,2026-02-14,"Duquesne 78, St. Bonaventure 73",St. Bonaventure,TRUE,Play-by-play vs player box,Duquesne,Brandon Hall,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828426,2026-02-14,"Duquesne 78, St. Bonaventure 73",St. Bonaventure,TRUE,Play-by-play vs player box,Duquesne,Cam Crawford,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828426,2026-02-14,"Duquesne 78, St. Bonaventure 73",St. Bonaventure,TRUE,Play-by-play vs team box,Duquesne,NA,Assists,13,11,-2,Assist in the box score has no matching play-by-play event
+401828428,2026-02-14,"VCU 78, Richmond 67",Richmond,TRUE,Play-by-play vs player box,VCU,Brandon Jennings,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828428,2026-02-14,"VCU 78, Richmond 67",Richmond,TRUE,Play-by-play vs team box,VCU,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401828428,2026-02-14,"VCU 78, Richmond 67",Richmond,TRUE,Player box sum vs team box,Richmond,NA,Fouls,19,18,-1,Team line has a foul charged to no player (typically a bench technical)
+401828429,2026-02-15,"Davidson 59, Dayton 70",Dayton,TRUE,Play-by-play vs player box,Davidson,Sam Brown,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828429,2026-02-15,"Davidson 59, Dayton 70",Dayton,TRUE,Play-by-play vs team box,Davidson,NA,Assists,12,11,-1,Assist in the box score has no matching play-by-play event
+401828430,2026-02-17,"George Washington 75, VCU 89",VCU,TRUE,Player box sum vs team box,George Washington,NA,Fouls,22,21,-1,Team line has a foul charged to no player (typically a bench technical)
+401828433,2026-02-18,"Dayton 82, George Mason 67",George Mason,TRUE,Play-by-play vs player box,Dayton,De'Shayne Montgomery,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828433,2026-02-18,"Dayton 82, George Mason 67",George Mason,TRUE,Play-by-play vs team box,Dayton,NA,Assists,20,19,-1,Assist in the box score has no matching play-by-play event
+401828433,2026-02-18,"Dayton 82, George Mason 67",George Mason,TRUE,Player box sum vs team box,George Mason,NA,Fouls,18,17,-1,Team line has a foul charged to no player (typically a bench technical)
+401828434,2026-02-18,"La Salle 61, Duquesne 62",Duquesne,TRUE,Play-by-play vs player box,Duquesne,Tarence Guinyard,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828434,2026-02-18,"La Salle 61, Duquesne 62",Duquesne,TRUE,Play-by-play vs team box,Duquesne,NA,Assists,8,7,-1,Assist in the box score has no matching play-by-play event
+401828435,2026-02-18,"Loyola Chicago 59, Fordham 62",Fordham,TRUE,Play-by-play vs player box,Loyola Chicago,Miles Rubin,Blocks,1,0,-1,Event in the box score is missing from the play-by-play
+401828435,2026-02-18,"Loyola Chicago 59, Fordham 62",Fordham,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Blocks,2,1,-1,Event in the box score is missing from the play-by-play
+401828435,2026-02-18,"Loyola Chicago 59, Fordham 62",Fordham,TRUE,Player box sum vs team box,Loyola Chicago,NA,Fouls,21,20,-1,Team line has a foul charged to no player (typically a bench technical)
+401828437,2026-02-20,"VCU 75, Saint Louis 88",Saint Louis,TRUE,Play-by-play vs player box,Saint Louis,Quentin Jones,Turnovers,2,3,1,Play-by-play has an event the box score does not
+401828437,2026-02-20,"VCU 75, Saint Louis 88",Saint Louis,TRUE,Play-by-play vs team box,Saint Louis,NA,Turnovers,15,16,1,Play-by-play has an event the box score does not
+401828438,2026-02-21,"Davidson 59, Fordham 63",Fordham,TRUE,Play-by-play vs player box,Fordham,Christian Henry,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401828438,2026-02-21,"Davidson 59, Fordham 63",Fordham,TRUE,Play-by-play vs team box,Fordham,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401828439,2026-02-21,"Duquesne 66, Dayton 78",Dayton,TRUE,Play-by-play vs player box,Duquesne,David Dixon,Blocks,3,1,-2,Event in the box score is missing from the play-by-play
+401828439,2026-02-21,"Duquesne 66, Dayton 78",Dayton,TRUE,Play-by-play vs team box,Duquesne,NA,Blocks,4,2,-2,Event in the box score is missing from the play-by-play
+401828441,2026-02-21,"Loyola Chicago 61, Saint Joseph's 75",Saint Joseph's,TRUE,Play-by-play vs player box,Loyola Chicago,Deywilk Tavarez,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828441,2026-02-21,"Loyola Chicago 61, Saint Joseph's 75",Saint Joseph's,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Assists,14,13,-1,Assist in the box score has no matching play-by-play event
+401828443,2026-02-24,"Saint Louis 62, Dayton 77",Dayton,TRUE,Play-by-play vs player box,Dayton,Jordan Derkack,Fouls,1,2,1,Play-by-play has an event the box score does not
+401828443,2026-02-24,"Saint Louis 62, Dayton 77",Dayton,TRUE,Play-by-play vs team box,Dayton,NA,Fouls,14,15,1,Play-by-play has an event the box score does not
+401828444,2026-02-24,"George Washington 104, La Salle 77",La Salle,TRUE,Player box sum vs team box,La Salle,NA,Fouls,17,16,-1,Team line has a foul charged to no player (typically a bench technical)
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs player box,Davidson,Ian Platteeuw,Fouls,0,1,1,Play-by-play has an event the box score does not
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs player box,Davidson,Josh Scovens,Field goals attempted,6,5,-1,Missed shot missing from the play-by-play
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs player box,Davidson,Josh Scovens,Turnovers,2,3,1,Play-by-play has an event the box score does not
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs player box,Duquesne,David Dixon,Blocks,3,2,-1,Event in the box score is missing from the play-by-play
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs team box,Davidson,NA,Field goals attempted,57,56,-1,Missed shot missing from the play-by-play
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs team box,Davidson,NA,Turnovers,10,11,1,Play-by-play has an event the box score does not
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs team box,Davidson,NA,Fouls,11,12,1,Play-by-play has an event the box score does not
+401828445,2026-02-25,"Davidson 67, Duquesne 56",Duquesne,TRUE,Play-by-play vs team box,Duquesne,NA,Blocks,5,4,-1,Event in the box score is missing from the play-by-play
+401828447,2026-02-26,"Rhode Island 76, St. Bonaventure 94",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401828447,2026-02-26,"Rhode Island 76, St. Bonaventure 94",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Assists,7,6,-1,Assist in the box score has no matching play-by-play event
+401828447,2026-02-26,"Rhode Island 76, St. Bonaventure 94",St. Bonaventure,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,19,17,-2,Assist in the box score has no matching play-by-play event
+401828449,2026-02-28,"Duquesne 76, Saint Louis 91",Saint Louis,TRUE,Play-by-play vs player box,Duquesne,Jakub Necas,Points,0,2,2,Play-by-play has an event the box score does not
+401828449,2026-02-28,"Duquesne 76, Saint Louis 91",Saint Louis,TRUE,Play-by-play vs player box,Duquesne,Jakub Necas,Field goals made,0,1,1,Play-by-play has an event the box score does not
+401828449,2026-02-28,"Duquesne 76, Saint Louis 91",Saint Louis,TRUE,Play-by-play vs player box,Duquesne,Jakub Necas,Field goals attempted,1,2,1,Play-by-play has an event the box score does not
+401828449,2026-02-28,"Duquesne 76, Saint Louis 91",Saint Louis,TRUE,Play-by-play vs player box,Duquesne,Jimmie Williams,Points,18,16,-2,Event in the box score is missing from the play-by-play
+401828449,2026-02-28,"Duquesne 76, Saint Louis 91",Saint Louis,TRUE,Play-by-play vs player box,Duquesne,Jimmie Williams,Field goals made,6,5,-1,Event in the box score is missing from the play-by-play
+401828449,2026-02-28,"Duquesne 76, Saint Louis 91",Saint Louis,TRUE,Play-by-play vs player box,Duquesne,Jimmie Williams,Field goals attempted,14,13,-1,Missed shot missing from the play-by-play
+401828452,2026-02-28,"Richmond 66, Loyola Chicago 69",Loyola Chicago,TRUE,Play-by-play vs player box,Loyola Chicago,Daniil Glazkov,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401828452,2026-02-28,"Richmond 66, Loyola Chicago 69",Loyola Chicago,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401828459,2026-03-04,"Fordham 84, La Salle 87",La Salle,TRUE,Player box sum vs team box,Fordham,NA,Fouls,18,16,-2,Player lines do not add up to the team line
+401828460,2026-03-04,"St. Bonaventure 82, George Washington 91",George Washington,TRUE,Play-by-play vs player box,St. Bonaventure,Darryl Simmons II,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828460,2026-03-04,"St. Bonaventure 82, George Washington 91",George Washington,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,15,14,-1,Assist in the box score has no matching play-by-play event
+401828463,2026-03-07,"Davidson 68, St. Bonaventure 63",St. Bonaventure,TRUE,Play-by-play vs player box,St. Bonaventure,Cayden Charles,Assists,5,4,-1,Assist in the box score has no matching play-by-play event
+401828463,2026-03-07,"Davidson 68, St. Bonaventure 63",St. Bonaventure,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,13,12,-1,Assist in the box score has no matching play-by-play event
+401828464,2026-03-07,"Richmond 77, Duquesne 79",Duquesne,TRUE,Play-by-play vs team box,Duquesne,NA,Fouls,11,12,1,Play-by-play has an event the box score does not
+401828466,2026-03-07,"Saint Louis 57, George Mason 86",George Mason,TRUE,Play-by-play vs player box,Saint Louis,Brady Dunlap,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401828466,2026-03-07,"Saint Louis 57, George Mason 86",George Mason,TRUE,Play-by-play vs team box,Saint Louis,NA,Assists,10,9,-1,Assist in the box score has no matching play-by-play event
+401828467,2026-03-07,"George Washington 62, Loyola Chicago 68",Loyola Chicago,TRUE,Play-by-play vs player box,Loyola Chicago,Miles Rubin,Blocks,5,4,-1,Event in the box score is missing from the play-by-play
+401828467,2026-03-07,"George Washington 62, Loyola Chicago 68",Loyola Chicago,TRUE,Play-by-play vs team box,Loyola Chicago,NA,Blocks,6,5,-1,Event in the box score is missing from the play-by-play
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Box score arithmetic,La Salle,NA,Points,76,74,-2,Points = 2s + 3s + free throws
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Play-by-play vs player box,Saint Joseph's,Khaafiq Myers,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Play-by-play vs team box,La Salle,NA,Field goals made,26,27,1,Play-by-play has an event the box score does not
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Play-by-play vs team box,La Salle,NA,Field goals attempted,67,68,1,Play-by-play has an event the box score does not
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Play-by-play vs team box,Saint Joseph's,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Player box sum vs team box,La Salle,NA,Points,76,74,-2,Player lines do not add up to the team line
+401828468,2026-03-07,"La Salle 76, Saint Joseph's 88",Saint Joseph's,TRUE,Player box sum vs team box,La Salle,NA,Fouls,22,21,-1,Team line has a foul charged to no player (typically a bench technical)
+401851258,2026-03-11,"St. Bonaventure 99, La Salle 80",La Salle,TRUE,Play-by-play vs player box,La Salle,Ashton Walker,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401851258,2026-03-11,"St. Bonaventure 99, La Salle 80",La Salle,TRUE,Play-by-play vs player box,La Salle,Truth Harris,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401851258,2026-03-11,"St. Bonaventure 99, La Salle 80",La Salle,TRUE,Play-by-play vs team box,La Salle,NA,Assists,12,10,-2,Assist in the box score has no matching play-by-play event
+401851263,2026-03-12,"George Washington 66, Fordham 62",Fordham,TRUE,Play-by-play vs player box,George Washington,Rafael Castro,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401851263,2026-03-12,"George Washington 66, Fordham 62",Fordham,TRUE,Play-by-play vs team box,George Washington,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401851272,2026-03-13,"St. Bonaventure 63, Dayton 68",Dayton,TRUE,Play-by-play vs player box,St. Bonaventure,Dasonte Bowen,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401851272,2026-03-13,"St. Bonaventure 63, Dayton 68",Dayton,TRUE,Play-by-play vs team box,St. Bonaventure,NA,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401858339,2026-03-17,"Davidson 80, Oklahoma State 84",Oklahoma State,FALSE,Play-by-play vs player box,Davidson,Nick Coval,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401858339,2026-03-17,"Davidson 80, Oklahoma State 84",Oklahoma State,FALSE,Play-by-play vs team box,Davidson,NA,Assists,19,18,-1,Assist in the box score has no matching play-by-play event
+401858343,2026-03-18,"George Washington 79, Utah Valley 78",Utah Valley,FALSE,Play-by-play vs player box,Utah Valley,Noah Taitz,Assists,4,3,-1,Assist in the box score has no matching play-by-play event
+401858343,2026-03-18,"George Washington 79, Utah Valley 78",Utah Valley,FALSE,Play-by-play vs team box,Utah Valley,NA,Assists,22,21,-1,Assist in the box score has no matching play-by-play event
+401858346,2026-03-18,"Dayton 80, Bradley 66",Bradley,FALSE,Player box sum vs team box,Bradley,NA,Fouls,19,18,-1,Team line has a foul charged to no player (typically a bench technical)
+401858348,2026-03-18,"Saint Joseph's 69, Colorado State 64",Colorado State,FALSE,Player box sum vs team box,Colorado State,NA,Fouls,18,17,-1,Team line has a foul charged to no player (typically a bench technical)
+401856532,2026-03-21,"Saint Louis 72, Michigan 95",Michigan,FALSE,Play-by-play vs player box,Saint Louis,Amari McCottry,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401856532,2026-03-21,"Saint Louis 72, Michigan 95",Michigan,FALSE,Play-by-play vs team box,Saint Louis,NA,Assists,16,15,-1,Assist in the box score has no matching play-by-play event
+401856533,2026-03-21,"VCU 55, Illinois 76",Illinois,FALSE,Play-by-play vs player box,Illinois,Zvonimir Ivisic,Blocks,3,1,-2,Event in the box score is missing from the play-by-play
+401856533,2026-03-21,"VCU 55, Illinois 76",Illinois,FALSE,Play-by-play vs team box,Illinois,NA,Blocks,7,5,-2,Event in the box score is missing from the play-by-play
+401856533,2026-03-21,"VCU 55, Illinois 76",Illinois,FALSE,Player box sum vs team box,VCU,NA,Fouls,15,14,-1,Team line has a foul charged to no player (typically a bench technical)
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,California,Dai Dai Ames,Assists,4,2,-2,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,California,Justin Pippen,Assists,6,5,-1,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,California,Semetri Carr,Assists,2,1,-1,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,Saint Joseph's,Austin Williford,Assists,3,1,-2,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,Saint Joseph's,Derek Simpson,Assists,7,5,-2,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,Saint Joseph's,Justice Ajogbor,Assists,1,0,-1,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs player box,Saint Joseph's,Khaafiq Myers,Assists,3,2,-1,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs team box,California,NA,Assists,14,10,-4,Assist in the box score has no matching play-by-play event
+401858354,2026-03-22,"Saint Joseph's 76, California 75",California,FALSE,Play-by-play vs team box,Saint Joseph's,NA,Assists,18,12,-6,Assist in the box score has no matching play-by-play event

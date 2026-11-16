@@ -1,0 +1,95 @@
+---
+title: "Do the numbers agree? A data audit of the 2025-26 Atlantic 10 season"
+author: "Ian Kachadorian"
+output:
+  html_document:
+    theme: flatly
+    toc: false
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 8, fig.height = 3.6, dpi = 144)
+library(dplyr)
+library(ggplot2)
+a <- readRDS("output/audit.rds")
+d <- a$discrepancies
+cs <- a$check_summary
+ss <- a$stat_summary
+gs <- a$game_summary
+n <- function(x) format(x, big.mark = ",")
+pct <- function(x, digits = 1) paste0(formatC(100 * x, format = "f", digits = digits), "%")
+team_chk <- cs[cs$check == "Play-by-play vs team box", ]
+ast <- ss[ss$stat == "Assists", ]
+rest <- ss[ss$stat != "Assists", ]
+worst <- gs[1, ]
+host <- a$assist_by_host
+tm <- a$assist_by_team
+bona <- tm[tm$team == "St. Bonaventure", ]
+ooo <- sum(a$integrity$out_of_order > 0)
+accent <- "#1f5f8b"
+```
+
+**The question.** Every game produces three records of the same events: the play-by-play log, the team box score and the player box score. If the data is right, all three agree. I pulled the public ESPN data for every game an Atlantic 10 team played in 2025-26 (`r n(nrow(a$games))` games, `r n(sum(gs$events))` play-by-play events) and counted each one against the others, the same way a stock count is reconciled against the ledger.
+
+**The answer.** The data is good but not clean. Of `r n(sum(cs$comparisons))` comparisons, `r n(nrow(d))` disagree, and `r n(sum(gs$clean))` of `r n(nrow(gs))` games reconcile completely. Scoring is exact: points, made threes and made free throws match in every team-game. The errors sit in the judgment stats, and one stat, assists, accounts for `r pct(mean(d$stat == "Assists"), 0)` of them.
+
+## What I found
+
+1. **Assists are the weak point.** Play-by-play assists match the team box score in only `r pct(ast$match_rate)` of team-games; every other stat matches in `r pct(min(rest$match_rate))` or more. The play-by-play is short by a net `r n(ast$box_total - ast$pbp_total)` assists over the season.
+
+2. **The assist gap depends on where the game was played.** In games hosted by `r host$host[1]`, `r pct(host$share_off[1], 0)` of team-games have an assist mismatch. In games hosted by `r host$host[nrow(host)]`, it is `r pct(host$share_off[nrow(host)], 0)`. That points to how each arena's scoring crew enters assists, not to random error. I have not confirmed the cause; the pattern is what the data shows.
+
+3. **It changes a ranking.** By the box score, St. Bonaventure was `r bona$rank_box`nd in the conference in assists per game (`r formatC(bona$box_per_game, format = "f", digits = 1)`). Counted from play-by-play, they drop to `r bona$rank_pbp`th (`r formatC(bona$pbp_per_game, format = "f", digits = 1)`). Any lineup or on/off assist number built from play-by-play carries that error.
+
+4. **One game holds `r pct(worst$mismatches / nrow(d), 0)` of all mismatches.** `r worst$matchup` (`r worst$game_date`) has `r worst$mismatches` on its own: missing three-point attempts, turnovers, steals and fouls for both teams, which looks like a stretch of the game missing from the feed.
+
+5. **The obvious sort key is wrong.** Sorting events by `sequence_number` puts them out of game order in `r n(ooo)` of `r n(nrow(gs))` games (`r n(sum(a$integrity$out_of_order))` places where the clock runs backward). Sorting by `game_play_number` is correct in every game. Anyone computing lineups or runs from the wrong column gets wrong answers without an error message.
+
+```{r stat-chart}
+ss |>
+  mutate(stat = reorder(stat, -match_rate), flag = stat == "Assists") |>
+  ggplot(aes(match_rate, stat, fill = flag)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = pct(match_rate)), hjust = -0.15, size = 3.2) +
+  scale_fill_manual(values = c(`TRUE` = "#c8553d", `FALSE` = accent), guide = "none") +
+  scale_x_continuous(labels = scales::percent, limits = c(0, 1.08), breaks = seq(0, 1, .25)) +
+  labs(title = "Share of team-games where play-by-play matches the box score", x = NULL, y = NULL) +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.major.y = element_blank(), panel.grid.minor = element_blank(), plot.title.position = "plot")
+```
+
+```{r host-chart}
+host |>
+  mutate(host = reorder(host, share_off)) |>
+  ggplot(aes(share_off, host)) +
+  geom_col(width = 0.7, fill = accent) +
+  geom_text(aes(label = pct(share_off, 0)), hjust = -0.15, size = 3.2) +
+  scale_x_continuous(labels = scales::percent, limits = c(0, max(host$share_off) * 1.15)) +
+  labs(title = "Share of team-games with an assist mismatch, by host arena", x = NULL, y = NULL) +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.major.y = element_blank(), panel.grid.minor = element_blank(), plot.title.position = "plot")
+```
+
+## The checks
+
+```{r check-table}
+cs |>
+  transmute(
+    Check = check, Comparisons = n(comparisons), Mismatches = n(mismatches),
+    `Match rate` = pct(match_rate, 2), `Games affected` = games_affected
+  ) |>
+  knitr::kable(align = "lrrrr")
+```
+
+- **Play-by-play vs team box:** 14 stats per team per game, counted from events and compared with the official team line.
+- **Play-by-play vs player box:** the same stats for each player.
+- **Player box sum vs team box:** the player lines must add up to the team line.
+- **Player minutes vs game length:** 200 team minutes, plus 25 for each overtime.
+- **Box score arithmetic:** points equal twos, threes and free throws; total rebounds equal offensive plus defensive; each team's opponent score equals the opponent's own score.
+
+## Limits
+
+This is public ESPN data loaded with the `hoopR` package, not CBB Analytics' own feed, so the specific errors may differ from yours. The scores in this play-by-play were rebuilt by `hoopR`, so the running score cannot be tested independently. A mismatch shows that two records disagree; it does not show which one is right. That takes film or the official scorer's report.
+
+The method carries over to any feed. Every mismatch is listed by game, team and player in `output/discrepancies.csv` and in the app (`app.R`).

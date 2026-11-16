@@ -1,0 +1,6 @@
+check,comparisons,mismatches,match_rate,games_affected
+Box score arithmetic,2010,1,0.9995024875621891,1
+Play-by-play vs player box,95746,422,0.9955925051699288,152
+Play-by-play vs team box,9380,210,0.9776119402985075,137
+Player box sum vs team box,8040,26,0.9967661691542289,25
+Player minutes vs game length,670,1,0.9985074626865672,1
