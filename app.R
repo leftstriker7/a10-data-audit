@@ -10,7 +10,7 @@ library(dplyr)
 library(ggplot2)
 library(DT)
 
-a <- readRDS("output/audit.rds")
+a <- readRDS("output/2026/audit.rds")
 d <- a$discrepancies
 gs <- a$game_summary
 cs <- a$check_summary

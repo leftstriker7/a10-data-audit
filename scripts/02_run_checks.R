@@ -1,9 +1,9 @@
 # 02_run_checks.R
 # Reconciles three views of the same games against each other:
 #   play-by-play events  vs  team box score  vs  player box score
-# and writes every disagreement to output/.
+# and writes every disagreement to output/<season>/.
 #
-# Run from the project root:  Rscript scripts/02_run_checks.R
+# Run from the project root:  Rscript scripts/02_run_checks.R [season]
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -11,10 +11,15 @@ suppressPackageStartupMessages({
   library(readr)
 })
 
-pbp <- readRDS("data/pbp.rds")
-team_box <- readRDS("data/team_box.rds")
-player_box <- readRDS("data/player_box.rds")
-meta <- readRDS("data/meta.rds")
+args <- commandArgs(trailingOnly = TRUE)
+SEASON <- if (length(args) > 0) as.integer(args[1]) else 2026L
+in_dir <- file.path("data", SEASON)
+out_dir <- file.path("output", SEASON)
+
+pbp <- readRDS(file.path(in_dir, "pbp.rds"))
+team_box <- readRDS(file.path(in_dir, "team_box.rds"))
+player_box <- readRDS(file.path(in_dir, "player_box.rds"))
+meta <- readRDS(file.path(in_dir, "meta.rds"))
 
 SHOTS <- c("JumpShot", "LayUpShot", "DunkShot", "TipShot")
 
@@ -355,11 +360,11 @@ assist_by_team <- assist_rows |>
 
 # ---- Write ------------------------------------------------------------------
 
-dir.create("output", showWarnings = FALSE)
-write_csv(discrepancies, "output/discrepancies.csv")
-write_csv(check_summary, "output/check_summary.csv")
-write_csv(stat_summary, "output/stat_summary.csv")
-write_csv(game_summary, "output/game_summary.csv")
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+write_csv(discrepancies, file.path(out_dir, "discrepancies.csv"))
+write_csv(check_summary, file.path(out_dir, "check_summary.csv"))
+write_csv(stat_summary, file.path(out_dir, "stat_summary.csv"))
+write_csv(game_summary, file.path(out_dir, "game_summary.csv"))
 saveRDS(
   list(
     meta = meta, games = games, discrepancies = discrepancies,
@@ -367,7 +372,7 @@ saveRDS(
     game_summary = game_summary, integrity = integrity, all_checks = all_checks,
     assist_by_host = assist_by_host, assist_by_team = assist_by_team
   ),
-  "output/audit.rds"
+  file.path(out_dir, "audit.rds")
 )
 
 cat(sprintf(

@@ -1,0 +1,356 @@
+game_id,game_date,home,away,home_score,away_score,conference_game,periods,events,overtimes,matchup,Play-by-play vs team box,Play-by-play vs player box,Player minutes vs game length,Player box sum vs team box,Box score arithmetic,mismatches,out_of_order,has_end_event,shots_no_shooter,events_no_player,no_pbp,clean
+401716869,2024-11-19,Fordham,Georgian Court,101,61,FALSE,0,0,0,"Georgian Court 61, Fordham 101",28,230,2,0,0,260,0,FALSE,0,0,TRUE,FALSE
+401700407,2024-11-04,VCU,Bellarmine,84,65,FALSE,0,0,0,"Bellarmine 65, VCU 84",28,190,2,0,0,220,0,FALSE,0,0,TRUE,FALSE
+401718247,2024-11-04,Dayton,Saint Francis,87,57,FALSE,0,0,0,"Saint Francis 57, Dayton 87",28,188,2,0,0,218,0,FALSE,0,0,TRUE,FALSE
+401700400,2024-11-15,Pennsylvania,Saint Joseph's,69,86,FALSE,0,0,0,"Saint Joseph's 86, Pennsylvania 69",28,174,2,0,0,204,0,FALSE,0,0,TRUE,FALSE
+401729820,2024-11-28,Rhode Island,UT Arlington,83,78,FALSE,0,0,0,"UT Arlington 78, Rhode Island 83",28,171,2,0,0,201,0,FALSE,0,0,TRUE,FALSE
+401729816,2024-11-27,Detroit Mercy,Rhode Island,75,81,FALSE,0,0,0,"Rhode Island 81, Detroit Mercy 75",28,160,2,0,0,190,0,FALSE,0,0,TRUE,FALSE
+401721669,2024-11-08,Duquesne,Princeton,68,75,FALSE,2,332,0,"Princeton 75, Duquesne 68",11,37,0,0,0,48,0,FALSE,0,1,FALSE,FALSE
+401715459,2024-11-15,DePaul,Duquesne,84,58,FALSE,2,299,0,"Duquesne 58, DePaul 84",8,13,0,0,0,21,0,TRUE,0,0,FALSE,FALSE
+401718459,2024-11-16,Bucknell,Richmond,80,76,FALSE,4,389,2,"Richmond 76, Bucknell 80",11,7,0,0,0,18,0,FALSE,0,0,FALSE,FALSE
+401718453,2024-12-10,Brown,Rhode Island,84,80,FALSE,4,425,2,"Rhode Island 80, Brown 84",8,6,0,0,0,14,0,FALSE,0,0,FALSE,FALSE
+401715634,2024-12-20,Dayton,Cincinnati,59,66,FALSE,2,322,0,"Cincinnati 66, Dayton 59",3,8,0,0,0,11,0,TRUE,0,0,FALSE,FALSE
+401724366,2025-01-15,La Salle,Davidson,79,76,TRUE,2,314,0,"Davidson 76, La Salle 79",1,10,0,0,0,11,0,TRUE,0,0,FALSE,FALSE
+401724434,2025-02-18,Davidson,Loyola Chicago,69,77,TRUE,2,512,0,"Loyola Chicago 77, Davidson 69",5,6,0,0,0,11,4,TRUE,0,0,FALSE,FALSE
+401706155,2024-11-09,Canisius,St. Bonaventure,78,87,FALSE,2,288,0,"St. Bonaventure 87, Canisius 78",5,5,0,0,0,10,0,FALSE,0,0,FALSE,FALSE
+401718463,2024-12-21,Richmond,VMI,78,71,FALSE,2,317,0,"VMI 71, Richmond 78",3,7,0,0,0,10,0,TRUE,0,0,FALSE,FALSE
+401724423,2025-02-12,Massachusetts,Davidson,68,77,TRUE,2,404,0,"Davidson 77, Massachusetts 68",4,5,0,0,0,9,5,TRUE,0,0,FALSE,FALSE
+401724425,2025-02-12,Saint Joseph's,La Salle,75,63,TRUE,2,467,0,"La Salle 63, Saint Joseph's 75",4,5,0,0,0,9,2,TRUE,0,0,FALSE,FALSE
+401724427,2025-02-14,Loyola Chicago,Saint Louis,78,69,TRUE,2,414,0,"Saint Louis 69, Loyola Chicago 78",4,5,0,0,0,9,1,TRUE,0,0,FALSE,FALSE
+401724355,2025-01-08,Duquesne,Saint Joseph's,85,81,TRUE,3,344,1,"Saint Joseph's 81, Duquesne 85",5,3,0,0,0,8,0,FALSE,0,0,FALSE,FALSE
+401724420,2025-02-11,Saint Louis,George Mason,74,76,TRUE,3,319,1,"George Mason 76, Saint Louis 74",4,4,0,0,0,8,0,TRUE,0,0,FALSE,FALSE
+401715477,2024-11-08,Marquette,George Mason,82,63,FALSE,2,354,0,"George Mason 63, Marquette 82",2,5,0,0,0,7,0,TRUE,0,0,FALSE,FALSE
+401724222,2024-12-31,Fordham,Saint Louis,63,88,TRUE,2,302,0,"Saint Louis 88, Fordham 63",2,5,0,0,0,7,0,FALSE,0,0,FALSE,FALSE
+401724391,2025-01-26,Fordham,Duquesne,65,63,TRUE,2,302,0,"Duquesne 63, Fordham 65",3,4,0,0,0,7,0,FALSE,0,0,FALSE,FALSE
+401724470,2025-03-08,Davidson,St. Bonaventure,61,64,TRUE,2,331,0,"St. Bonaventure 64, Davidson 61",2,5,0,0,0,7,0,TRUE,0,0,FALSE,FALSE
+401732295,2024-11-23,George Washington,Louisiana,83,74,FALSE,2,372,0,"Louisiana 74, George Washington 83",5,2,0,0,0,7,0,TRUE,0,0,FALSE,FALSE
+401700389,2024-11-12,La Salle,Cornell,93,77,FALSE,2,366,0,"Cornell 77, La Salle 93",4,2,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401700412,2024-12-04,VCU,Georgia Southern,89,54,FALSE,2,352,0,"Georgia Southern 54, VCU 89",3,3,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401720446,2024-12-06,Davidson,Charleston Southern,73,72,FALSE,2,302,0,"Charleston Southern 72, Davidson 73",3,3,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401724221,2024-12-31,Duquesne,Rhode Island,67,55,TRUE,2,320,0,"Rhode Island 55, Duquesne 67",4,2,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401724349,2025-01-04,Davidson,Duquesne,77,71,TRUE,2,293,0,"Duquesne 71, Davidson 77",3,3,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401724388,2025-01-25,George Washington,Saint Louis,67,61,TRUE,2,298,0,"Saint Louis 61, George Washington 67",1,5,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401724400,2025-02-01,St. Bonaventure,Fordham,74,72,TRUE,2,282,0,"Fordham 72, St. Bonaventure 74",4,2,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401724415,2025-02-08,Davidson,Richmond,71,60,TRUE,2,262,0,"Richmond 60, Davidson 71",2,4,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401724459,2025-03-01,Massachusetts,Rhode Island,91,88,TRUE,2,418,0,"Rhode Island 88, Massachusetts 91",0,6,0,0,0,6,0,TRUE,0,0,FALSE,FALSE
+401743811,2025-03-13,George Washington,Fordham,88,81,TRUE,2,469,0,"Fordham 81, George Washington 88",2,4,0,0,0,6,4,TRUE,0,0,FALSE,FALSE
+401743813,2025-03-14,VCU,St. Bonaventure,76,59,TRUE,2,435,0,"St. Bonaventure 59, VCU 76",2,4,0,0,0,6,2,TRUE,0,0,FALSE,FALSE
+401700392,2024-11-30,La Salle,Temple,83,75,FALSE,2,368,0,"Temple 75, La Salle 83",4,1,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401700405,2024-12-21,Saint Joseph's,Virginia Tech,82,62,FALSE,2,297,0,"Virginia Tech 62, Saint Joseph's 82",4,1,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401700413,2024-12-09,VCU,Pennsylvania,66,47,FALSE,2,297,0,"Pennsylvania 47, VCU 66",3,2,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401715989,2024-12-22,Oakland,Loyola Chicago,72,71,FALSE,2,301,0,"Loyola Chicago 71, Oakland 72",4,1,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401718135,2024-11-04,George Washington,Mercyhurst,76,59,FALSE,2,330,0,"Mercyhurst 59, George Washington 76",2,3,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401721000,2024-11-08,Bowling Green,Davidson,85,91,FALSE,2,355,0,"Davidson 91, Bowling Green 85",2,3,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401724370,2025-01-15,Loyola Chicago,Rhode Island,81,77,TRUE,2,326,0,"Rhode Island 77, Loyola Chicago 81",3,2,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401724430,2025-02-15,Davidson,George Washington,67,74,TRUE,2,456,0,"George Washington 74, Davidson 67",2,3,0,0,0,5,2,TRUE,0,0,FALSE,FALSE
+401724431,2025-02-15,Richmond,Fordham,70,66,TRUE,2,456,0,"Fordham 66, Richmond 70",2,3,0,0,0,5,0,TRUE,0,0,FALSE,FALSE
+401724456,2025-03-01,Duquesne,George Mason,85,68,TRUE,2,432,0,"George Mason 68, Duquesne 85",2,3,0,0,0,5,5,TRUE,0,0,FALSE,FALSE
+401729811,2024-12-25,Murray State,Loyola Chicago,71,68,FALSE,2,306,0,"Loyola Chicago 68, Murray State 71",4,0,0,1,0,5,0,TRUE,0,0,FALSE,FALSE
+401743812,2025-03-13,Saint Joseph's,La Salle,75,70,TRUE,2,433,0,"La Salle 70, Saint Joseph's 75",2,3,0,0,0,5,2,TRUE,0,0,FALSE,FALSE
+401743838,2025-03-15,George Mason,Saint Joseph's,74,64,TRUE,2,444,0,"Saint Joseph's 64, George Mason 74",2,3,0,0,0,5,4,TRUE,0,0,FALSE,FALSE
+401700394,2024-12-14,North Carolina,La Salle,93,67,FALSE,2,361,0,"La Salle 67, North Carolina 93",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401700399,2024-11-12,Saint Joseph's,Villanova,83,76,FALSE,2,343,0,"Villanova 76, Saint Joseph's 83",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401700401,2024-11-26,Saint Joseph's,Coppin State,83,54,FALSE,2,319,0,"Coppin State 54, Saint Joseph's 83",4,0,0,0,0,4,0,TRUE,0,1,FALSE,FALSE
+401700410,2024-11-16,VCU,Loyola Maryland,83,57,FALSE,2,350,0,"Loyola Maryland 57, VCU 83",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401700411,2024-11-29,VCU,Elizabeth City State,103,58,FALSE,2,386,0,"Elizabeth City State 58, VCU 103",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401706975,2024-11-22,Kansas State,George Washington,83,71,FALSE,2,358,0,"George Washington 71, Kansas State 83",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401706991,2024-11-08,West Virginia,Massachusetts,75,69,FALSE,2,358,0,"Massachusetts 69, West Virginia 75",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401715873,2024-11-04,Santa Clara,Saint Louis,85,78,FALSE,2,331,0,"Saint Louis 78, Santa Clara 85",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401715982,2024-11-22,Saint Louis,Wichita State,63,88,FALSE,2,348,0,"Wichita State 88, Saint Louis 63",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401716868,2024-11-15,Manhattan,Fordham,78,76,FALSE,2,369,0,"Fordham 76, Manhattan 78",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401716874,2024-12-21,Fordham,UAlbany,87,83,FALSE,2,338,0,"UAlbany 83, Fordham 87",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401716876,2024-11-11,George Mason,Stony Brook,94,56,FALSE,2,334,0,"Stony Brook 56, George Mason 94",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401716880,2024-11-23,George Mason,Ferrum,100,55,FALSE,2,318,0,"Ferrum 55, George Mason 100",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718141,2024-12-07,Old Dominion,George Washington,70,78,FALSE,2,351,0,"George Washington 78, Old Dominion 70",2,0,0,1,1,4,0,TRUE,1,0,FALSE,FALSE
+401718142,2024-12-13,George Washington,Army,75,60,FALSE,2,301,0,"Army 60, George Washington 75",1,3,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718144,2024-12-22,George Washington,UVA Wise,102,62,FALSE,2,326,0,"UVA Wise 62, George Washington 102",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718349,2024-11-15,Princeton,Loyola Chicago,68,73,FALSE,2,327,0,"Loyola Chicago 73, Princeton 68",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718350,2024-11-19,Loyola Chicago,Southern Utah,76,72,FALSE,2,329,0,"Southern Utah 72, Loyola Chicago 76",2,1,0,1,0,4,0,TRUE,0,0,FALSE,FALSE
+401718353,2024-12-07,Loyola Chicago,South Florida,74,72,FALSE,2,312,0,"South Florida 72, Loyola Chicago 74",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718416,2024-11-04,Massachusetts,New Hampshire,103,74,FALSE,2,372,0,"New Hampshire 74, Massachusetts 103",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718421,2024-12-01,Massachusetts,NJIT,80,68,FALSE,2,349,0,"NJIT 68, Massachusetts 80",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718423,2024-12-07,Massachusetts,UMass Lowell,83,96,FALSE,2,375,0,"UMass Lowell 96, Massachusetts 83",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718424,2024-12-14,Massachusetts,Massachusetts-Boston,86,52,FALSE,2,370,0,"Massachusetts-Boston 52, Massachusetts 86",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718425,2024-12-18,Massachusetts,Northeastern,77,72,FALSE,2,396,0,"Northeastern 72, Massachusetts 77",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718458,2024-11-13,Charlotte,Richmond,65,48,FALSE,2,301,0,"Richmond 48, Charlotte 65",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401718460,2024-11-20,Richmond,Maine,70,66,FALSE,2,314,0,"Maine 66, Richmond 70",2,0,2,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401719330,2024-12-15,Illinois State,Saint Louis,81,77,FALSE,2,294,0,"Saint Louis 77, Illinois State 81",2,0,2,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724224,2024-12-31,Saint Joseph's,Massachusetts,81,72,TRUE,2,368,0,"Massachusetts 72, Saint Joseph's 81",4,0,0,0,0,4,0,TRUE,0,1,FALSE,FALSE
+401724226,2025-01-03,Saint Louis,Saint Joseph's,73,57,TRUE,2,309,0,"Saint Joseph's 57, Saint Louis 73",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724360,2025-01-11,Davidson,Fordham,74,64,TRUE,2,330,0,"Fordham 64, Davidson 74",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724361,2025-01-11,George Mason,Massachusetts,77,70,TRUE,2,365,0,"Massachusetts 70, George Mason 77",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724371,2025-01-15,St. Bonaventure,Richmond,63,49,TRUE,2,251,0,"Richmond 49, St. Bonaventure 63",4,0,0,0,0,4,0,FALSE,0,0,FALSE,FALSE
+401724372,2025-01-17,Saint Joseph's,VCU,69,78,TRUE,2,356,0,"VCU 78, Saint Joseph's 69",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724373,2025-01-18,George Mason,George Washington,80,77,TRUE,4,430,2,"George Washington 77, George Mason 80",4,0,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724379,2025-01-21,Davidson,Saint Joseph's,61,78,TRUE,2,289,0,"Saint Joseph's 78, Davidson 61",1,3,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724380,2025-01-21,Duquesne,Dayton,62,82,TRUE,2,295,0,"Dayton 82, Duquesne 62",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724390,2025-01-25,Richmond,Davidson,66,72,TRUE,2,277,0,"Davidson 72, Richmond 66",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724397,2025-01-29,George Washington,Richmond,75,66,TRUE,2,300,0,"Richmond 66, George Washington 75",1,3,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724421,2025-02-11,Richmond,Loyola Chicago,80,87,TRUE,3,306,1,"Loyola Chicago 87, Richmond 80",3,1,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724429,2025-02-15,Dayton,Duquesne,77,76,TRUE,2,483,0,"Duquesne 76, Dayton 77",2,2,0,0,0,4,4,TRUE,0,0,FALSE,FALSE
+401724450,2025-02-26,La Salle,Duquesne,62,67,TRUE,2,422,0,"Duquesne 67, La Salle 62",2,2,0,0,0,4,0,TRUE,0,0,FALSE,FALSE
+401724457,2025-03-01,George Washington,La Salle,71,60,TRUE,2,399,0,"La Salle 60, George Washington 71",2,2,0,0,0,4,2,TRUE,0,0,FALSE,FALSE
+401732175,2024-11-27,Richmond,Ball State,73,60,FALSE,2,289,0,"Ball State 60, Richmond 73",3,0,0,1,0,4,0,TRUE,0,0,FALSE,FALSE
+401743806,2025-03-12,Davidson,Richmond,69,65,TRUE,2,399,0,"Richmond 65, Davidson 69",1,3,0,0,0,4,3,TRUE,0,0,FALSE,FALSE
+401743839,2025-03-16,VCU,George Mason,68,63,TRUE,2,480,0,"George Mason 63, VCU 68",2,2,0,0,0,4,9,TRUE,0,0,FALSE,FALSE
+401751915,2025-03-18,St. Bonaventure,Kent State,56,75,FALSE,2,405,0,"Kent State 75, St. Bonaventure 56",2,2,0,0,0,4,5,TRUE,0,0,FALSE,FALSE
+401700387,2024-11-04,La Salle,American University,65,52,FALSE,2,288,0,"American University 52, La Salle 65",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700388,2024-11-09,La Salle,Lafayette,81,60,FALSE,2,342,0,"Lafayette 60, La Salle 81",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700390,2024-11-16,Drexel,La Salle,68,71,FALSE,2,310,0,"La Salle 71, Drexel 68",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700391,2024-11-21,UC San Diego,La Salle,72,67,FALSE,2,375,0,"La Salle 67, UC San Diego 72",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700393,2024-12-03,Northeastern,La Salle,82,68,FALSE,2,347,0,"La Salle 68, Northeastern 82",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700402,2024-12-03,Saint Joseph's,Princeton,69,77,FALSE,2,313,0,"Princeton 77, Saint Joseph's 69",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700404,2024-12-18,Saint Joseph's,American University,84,57,FALSE,2,303,0,"American University 57, Saint Joseph's 84",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401700414,2024-12-14,Colorado State,VCU,68,76,FALSE,2,305,0,"VCU 76, Colorado State 68",2,0,0,1,0,3,0,TRUE,0,0,FALSE,FALSE
+401706187,2024-12-18,Loyola Chicago,Canisius,72,60,FALSE,2,264,0,"Canisius 60, Loyola Chicago 72",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401714644,2024-12-08,Auburn,Richmond,98,54,FALSE,2,356,0,"Richmond 54, Auburn 98",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401715559,2024-12-14,Bryant,Fordham,84,86,FALSE,2,374,0,"Fordham 86, Bryant 84",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401715870,2024-11-24,Duquesne,South Dakota State,60,71,FALSE,2,301,0,"South Dakota State 71, Duquesne 60",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401716056,2024-11-25,North Carolina,Dayton,92,90,FALSE,2,363,0,"Dayton 90, North Carolina 92",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401716877,2024-11-13,George Mason,Central Michigan,69,70,FALSE,2,336,0,"Central Michigan 70, George Mason 69",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401716881,2024-11-29,James Madison,George Mason,61,66,FALSE,2,299,0,"George Mason 66, James Madison 61",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401716885,2024-12-28,George Mason,Mount St. Mary's,64,56,FALSE,2,332,0,"Mount St. Mary's 56, George Mason 64",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401718351,2024-11-23,Loyola Chicago,Tulsa,89,53,FALSE,2,370,0,"Tulsa 53, Loyola Chicago 89",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401718354,2024-12-15,Loyola Chicago,San Francisco,66,76,FALSE,2,367,0,"San Francisco 76, Loyola Chicago 66",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401718418,2024-11-16,Massachusetts,Hofstra,71,75,FALSE,3,364,1,"Hofstra 75, Massachusetts 71",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401718422,2024-12-04,Massachusetts,Central Connecticut,69,73,FALSE,2,306,0,"Central Connecticut 73, Massachusetts 69",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401718455,2024-12-21,Rhode Island,Temple,85,79,FALSE,2,324,0,"Temple 79, Rhode Island 85",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401719331,2024-12-18,Saint Louis,Wofford,71,74,FALSE,2,304,0,"Wofford 74, Saint Louis 71",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401719335,2024-11-13,Florida Gulf Coast,St. Bonaventure,65,74,FALSE,2,324,0,"St. Bonaventure 74, Florida Gulf Coast 65",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401719336,2024-11-16,St. Bonaventure,Le Moyne,71,52,FALSE,2,310,0,"Le Moyne 52, St. Bonaventure 71",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401719339,2024-12-04,Bucknell,St. Bonaventure,47,64,FALSE,2,313,0,"St. Bonaventure 64, Bucknell 47",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401721782,2024-11-04,Davidson,William Peace,88,47,FALSE,2,321,0,"William Peace 47, Davidson 88",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724223,2024-12-31,Richmond,George Washington,66,61,TRUE,2,323,0,"George Washington 61, Richmond 66",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724352,2025-01-04,Massachusetts,Richmond,64,72,TRUE,2,317,0,"Richmond 72, Massachusetts 64",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724362,2025-01-11,St. Bonaventure,La Salle,82,83,TRUE,3,335,1,"La Salle 83, St. Bonaventure 82",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724374,2025-01-18,Richmond,Saint Louis,59,63,TRUE,2,315,0,"Saint Louis 63, Richmond 59",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724378,2025-01-19,Massachusetts,La Salle,82,60,TRUE,2,362,0,"La Salle 60, Massachusetts 82",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724383,2025-01-22,Loyola Chicago,Fordham,70,66,TRUE,2,282,0,"Fordham 66, Loyola Chicago 70",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724384,2025-01-22,Massachusetts,George Washington,74,61,TRUE,2,341,0,"George Washington 61, Massachusetts 74",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724385,2025-01-22,Saint Louis,La Salle,64,52,TRUE,2,314,0,"La Salle 52, Saint Louis 64",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724389,2025-01-25,La Salle,Rhode Island,70,64,TRUE,2,369,0,"Rhode Island 64, La Salle 70",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724394,2025-01-29,La Salle,Fordham,72,88,TRUE,2,349,0,"Fordham 88, La Salle 72",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724395,2025-01-29,Saint Joseph's,Duquesne,76,72,TRUE,2,339,0,"Duquesne 72, Saint Joseph's 76",3,0,0,0,0,3,0,FALSE,0,0,FALSE,FALSE
+401724396,2025-01-29,George Mason,Loyola Chicago,58,53,TRUE,3,354,1,"Loyola Chicago 53, George Mason 58",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724402,2025-02-01,Davidson,George Mason,60,64,TRUE,2,285,0,"George Mason 64, Davidson 60",1,1,0,1,0,3,0,TRUE,0,0,FALSE,FALSE
+401724408,2025-02-04,Loyola Chicago,St. Bonaventure,77,53,TRUE,2,278,0,"St. Bonaventure 53, Loyola Chicago 77",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724411,2025-02-05,Fordham,Rhode Island,80,79,TRUE,2,321,0,"Rhode Island 79, Fordham 80",2,1,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724417,2025-02-08,George Mason,Rhode Island,82,67,TRUE,2,297,0,"Rhode Island 67, George Mason 82",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724418,2025-02-09,St. Bonaventure,George Washington,52,62,TRUE,2,300,0,"George Washington 62, St. Bonaventure 52",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724432,2025-02-15,Rhode Island,La Salle,86,71,TRUE,2,409,0,"La Salle 71, Rhode Island 86",1,2,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401724442,2025-02-22,Fordham,Davidson,69,80,TRUE,2,492,0,"Davidson 80, Fordham 69",1,2,0,0,0,3,1,TRUE,0,0,FALSE,FALSE
+401724443,2025-02-22,St. Bonaventure,Duquesne,70,63,TRUE,2,363,0,"Duquesne 63, St. Bonaventure 70",1,2,0,0,0,3,1,TRUE,0,0,FALSE,FALSE
+401724445,2025-02-22,George Washington,Massachusetts,74,52,TRUE,2,470,0,"Massachusetts 52, George Washington 74",1,2,0,0,0,3,1,TRUE,0,0,FALSE,FALSE
+401724447,2025-02-25,Richmond,VCU,60,78,TRUE,2,341,0,"VCU 78, Richmond 60",0,0,2,1,0,3,3,TRUE,0,0,FALSE,FALSE
+401724506,2024-12-14,Duquesne,Towson,65,47,FALSE,2,282,0,"Towson 47, Duquesne 65",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401729748,2024-11-29,Gonzaga,Davidson,90,65,FALSE,2,302,0,"Davidson 65, Gonzaga 90",2,0,0,1,0,3,0,TRUE,0,0,FALSE,FALSE
+401729758,2024-12-07,La Salle,Saint Joseph's,68,82,TRUE,2,314,0,"Saint Joseph's 82, La Salle 68",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401729764,2024-11-23,Stetson,La Salle,77,92,FALSE,2,342,0,"La Salle 92, Stetson 77",2,0,0,1,0,3,0,FALSE,0,0,FALSE,FALSE
+401729772,2024-11-25,Duquesne,Hampton,59,64,FALSE,2,343,0,"Hampton 64, Duquesne 59",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401729776,2024-11-26,Old Dominion,Duquesne,54,67,FALSE,2,343,0,"Duquesne 67, Old Dominion 54",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401729807,2024-12-23,Loyola Chicago,Charleston,68,77,FALSE,2,338,0,"Charleston 77, Loyola Chicago 68",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401729822,2024-11-22,Saint Joseph's,Texas,58,67,FALSE,2,333,0,"Texas 67, Saint Joseph's 58",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401729854,2024-11-26,Fordham,San Francisco,64,85,FALSE,2,306,0,"San Francisco 85, Fordham 64",3,0,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401732171,2024-11-26,Richmond,Louisiana Tech,62,65,FALSE,2,293,0,"Louisiana Tech 65, Richmond 62",2,0,0,1,0,3,0,TRUE,0,0,FALSE,FALSE
+401743808,2025-03-12,Massachusetts,La Salle,71,78,TRUE,2,444,0,"La Salle 78, Massachusetts 71",1,2,0,0,0,3,0,TRUE,0,0,FALSE,FALSE
+401743815,2025-03-14,George Mason,George Washington,80,65,TRUE,2,439,0,"George Washington 65, George Mason 80",1,2,0,0,0,3,1,TRUE,0,0,FALSE,FALSE
+401743816,2025-03-14,Dayton,Saint Joseph's,68,73,TRUE,3,500,1,"Saint Joseph's 73, Dayton 68",1,2,0,0,0,3,4,TRUE,0,0,FALSE,FALSE
+401751946,2025-03-22,Chattanooga,Dayton,87,72,FALSE,2,422,0,"Dayton 72, Chattanooga 87",1,1,0,1,0,3,6,TRUE,0,0,FALSE,FALSE
+401700395,2024-12-18,La Salle,Fairleigh Dickinson,77,72,FALSE,2,335,0,"Fairleigh Dickinson 72, La Salle 77",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401700396,2024-12-21,La Salle,Immaculata,108,48,FALSE,2,302,0,"Immaculata 48, La Salle 108",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401700397,2024-11-04,Saint Joseph's,Navy,70,63,FALSE,2,348,0,"Navy 63, Saint Joseph's 70",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401700398,2024-11-08,Saint Joseph's,Central Connecticut,67,73,FALSE,2,308,0,"Central Connecticut 73, Saint Joseph's 67",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401700406,2024-12-28,Saint Joseph's,Delaware State,76,58,FALSE,2,326,0,"Delaware State 58, Saint Joseph's 76",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401700409,2024-11-13,VCU,Merrimack,63,42,FALSE,2,347,0,"Merrimack 42, VCU 63",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401706890,2024-12-17,Duke,George Mason,68,47,FALSE,2,326,0,"George Mason 47, Duke 68",0,2,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401711681,2024-11-04,Duquesne,Lipscomb,72,77,FALSE,2,332,0,"Lipscomb 77, Duquesne 72",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401715417,2024-11-25,Fordham,Penn State,66,85,FALSE,2,341,0,"Penn State 85, Fordham 66",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401715538,2024-12-14,Providence,St. Bonaventure,70,74,FALSE,2,339,0,"St. Bonaventure 74, Providence 70",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401715590,2024-11-04,St. John's,Fordham,92,60,FALSE,2,331,0,"Fordham 60, St. John's 92",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401715640,2024-11-21,Saint Joseph's,Texas Tech,78,77,FALSE,2,337,0,"Texas Tech 77, Saint Joseph's 78",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401715656,2024-11-24,Massachusetts,Florida State,59,92,FALSE,2,363,0,"Florida State 92, Massachusetts 59",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401715866,2024-11-19,Duquesne,Milwaukee,74,80,FALSE,2,347,0,"Milwaukee 80, Duquesne 74",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401715868,2024-11-27,Davidson,Arizona,71,104,FALSE,2,344,0,"Arizona 104, Davidson 71",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401716061,2024-11-28,St. Bonaventure,Utah State,67,72,FALSE,2,349,0,"Utah State 72, St. Bonaventure 67",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401716867,2024-11-12,Fordham,Binghamton,78,63,FALSE,2,357,0,"Binghamton 63, Fordham 78",0,2,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401716870,2024-11-22,Fordham,Drexel,71,73,FALSE,2,287,0,"Drexel 73, Fordham 71",1,1,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401716875,2024-11-04,George Mason,North Carolina Central,75,58,FALSE,2,366,0,"North Carolina Central 58, George Mason 75",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401716879,2024-11-20,George Mason,Coppin State,93,55,FALSE,2,337,0,"Coppin State 55, George Mason 93",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401716882,2024-12-03,George Mason,UNC Asheville,74,52,FALSE,2,293,0,"UNC Asheville 52, George Mason 74",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401716883,2024-12-07,George Mason,Tulane,76,64,FALSE,2,301,0,"Tulane 64, George Mason 76",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401716886,2024-12-22,George Mason,Pennsylvania,85,53,FALSE,2,305,0,"Pennsylvania 53, George Mason 85",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718140,2024-12-04,American University,George Washington,81,71,FALSE,3,392,1,"George Washington 71, American University 81",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718143,2024-12-18,George Washington,Lafayette,82,62,FALSE,2,317,0,"Lafayette 62, George Washington 82",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718248,2024-11-13,Dayton,Ball State,77,69,FALSE,2,322,0,"Ball State 69, Dayton 77",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718252,2024-12-07,Dayton,Lehigh,86,62,FALSE,2,285,0,"Lehigh 62, Dayton 86",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718347,2024-11-07,Loyola Chicago,Detroit Mercy,87,65,FALSE,2,381,0,"Detroit Mercy 65, Loyola Chicago 87",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718419,2024-11-23,Temple,Massachusetts,87,80,FALSE,2,392,0,"Massachusetts 80, Temple 87",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718426,2024-12-21,Massachusetts,Arizona State,62,78,FALSE,2,341,0,"Arizona State 78, Massachusetts 62",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718447,2024-11-04,Rhode Island,Fairfield,96,58,FALSE,2,388,0,"Fairfield 58, Rhode Island 96",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718450,2024-11-20,Rhode Island,Lafayette,86,72,FALSE,2,370,0,"Lafayette 72, Rhode Island 86",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718454,2024-12-15,Rhode Island,Central Connecticut,77,69,FALSE,2,317,0,"Central Connecticut 69, Rhode Island 77",0,2,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718456,2024-11-06,Richmond,Mount Olive,101,68,FALSE,2,390,0,"Mount Olive 68, Richmond 101",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718457,2024-11-09,Richmond,Marist,72,79,FALSE,2,327,0,"Marist 79, Richmond 72",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718461,2024-12-14,Richmond,Belmont,86,93,FALSE,2,316,0,"Belmont 93, Richmond 86",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718462,2024-12-18,William & Mary,Richmond,93,87,FALSE,2,310,0,"Richmond 87, William & Mary 93",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401718464,2024-12-28,Richmond,Florida Gulf Coast,57,75,FALSE,2,314,0,"Florida Gulf Coast 75, Richmond 57",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719326,2024-11-27,Saint Louis,UMass Lowell,93,90,FALSE,2,274,0,"UMass Lowell 90, Saint Louis 93",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719327,2024-12-02,Saint Louis,Jackson State,74,66,FALSE,2,316,0,"Jackson State 66, Saint Louis 74",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719328,2024-12-05,San Francisco,Saint Louis,78,61,FALSE,2,303,0,"Saint Louis 61, San Francisco 78",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719333,2024-12-28,Saint Louis,William Woods,78,57,FALSE,2,339,0,"William Woods 57, Saint Louis 78",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719334,2024-11-04,St. Bonaventure,Cal State Northridge,70,56,FALSE,2,363,0,"Cal State Northridge 56, St. Bonaventure 70",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719337,2024-11-20,St. Bonaventure,Mansfield,76,54,FALSE,2,300,0,"Mansfield 54, St. Bonaventure 76",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401719338,2024-11-24,St. Bonaventure,Bryant,85,70,FALSE,2,306,0,"Bryant 70, St. Bonaventure 85",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719340,2024-12-07,St. Bonaventure,Buffalo,65,55,FALSE,2,278,0,"Buffalo 55, St. Bonaventure 65",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719341,2024-12-17,Siena,St. Bonaventure,48,65,FALSE,2,295,0,"St. Bonaventure 65, Siena 48",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401719342,2024-12-21,St. Bonaventure,Niagara,71,52,FALSE,2,277,0,"Niagara 52, St. Bonaventure 71",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401721781,2024-12-18,Temple,Davidson,62,61,FALSE,2,301,0,"Davidson 61, Temple 62",0,2,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401721783,2024-11-22,Davidson,VMI,93,66,FALSE,2,325,0,"VMI 66, Davidson 93",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401721786,2024-12-21,Davidson,Bethune-Cookman,76,63,FALSE,2,320,0,"Bethune-Cookman 63, Davidson 76",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401722091,2024-12-11,Duquesne,Maine,56,61,FALSE,2,316,0,"Maine 61, Duquesne 56",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724219,2024-12-31,George Mason,Davidson,69,57,TRUE,2,264,0,"Davidson 57, George Mason 69",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724220,2024-12-31,Dayton,La Salle,84,70,TRUE,2,352,0,"La Salle 70, Dayton 84",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724225,2024-12-31,St. Bonaventure,VCU,77,75,TRUE,2,284,0,"VCU 75, St. Bonaventure 77",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724348,2025-01-04,Rhode Island,George Mason,62,59,TRUE,2,318,0,"George Mason 59, Rhode Island 62",0,2,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724350,2025-01-04,Fordham,St. Bonaventure,66,86,TRUE,2,291,0,"St. Bonaventure 86, Fordham 66",1,1,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401724351,2025-01-04,Loyola Chicago,VCU,65,84,TRUE,2,337,0,"VCU 84, Loyola Chicago 65",0,0,0,2,0,2,0,TRUE,0,0,FALSE,FALSE
+401724353,2025-01-08,Massachusetts,Dayton,76,72,TRUE,2,344,0,"Dayton 72, Massachusetts 76",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724356,2025-01-08,VCU,Fordham,73,61,TRUE,2,350,0,"Fordham 61, VCU 73",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724363,2025-01-11,Saint Joseph's,Loyola Chicago,93,57,TRUE,2,326,0,"Loyola Chicago 57, Saint Joseph's 93",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401724364,2025-01-11,Richmond,Rhode Island,64,67,TRUE,3,343,1,"Rhode Island 67, Richmond 64",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724365,2025-01-14,VCU,Saint Louis,78,62,TRUE,2,313,0,"Saint Louis 62, VCU 78",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724367,2025-01-15,Dayton,George Mason,59,67,TRUE,2,273,0,"George Mason 67, Dayton 59",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724369,2025-01-15,Fordham,Massachusetts,118,120,TRUE,5,600,3,"Massachusetts 120, Fordham 118",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724377,2025-01-18,Duquesne,St. Bonaventure,75,57,TRUE,2,295,0,"St. Bonaventure 57, Duquesne 75",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724381,2025-01-21,St. Bonaventure,George Mason,62,75,TRUE,2,292,0,"George Mason 75, St. Bonaventure 62",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724387,2025-01-24,VCU,St. Bonaventure,75,61,TRUE,2,302,0,"St. Bonaventure 61, VCU 75",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724401,2025-02-01,La Salle,George Washington,73,67,TRUE,2,303,0,"George Washington 67, La Salle 73",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724403,2025-02-01,Duquesne,Massachusetts,53,62,TRUE,2,357,0,"Massachusetts 62, Duquesne 53",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401724405,2025-02-01,VCU,Richmond,90,49,TRUE,2,256,0,"Richmond 49, VCU 90",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724409,2025-02-04,Massachusetts,Saint Louis,71,73,TRUE,2,331,0,"Saint Louis 73, Massachusetts 71",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724410,2025-02-05,Richmond,Duquesne,73,68,TRUE,2,283,0,"Duquesne 68, Richmond 73",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724413,2025-02-07,Dayton,VCU,68,73,TRUE,2,351,0,"VCU 73, Dayton 68",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724414,2025-02-07,Saint Joseph's,Saint Louis,76,63,TRUE,2,304,0,"Saint Louis 63, Saint Joseph's 76",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401724416,2025-02-08,Duquesne,Loyola Chicago,69,56,TRUE,2,309,0,"Loyola Chicago 56, Duquesne 69",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724419,2025-02-09,La Salle,Massachusetts,55,78,TRUE,2,310,0,"Massachusetts 78, La Salle 55",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724436,2025-02-19,George Washington,Saint Joseph's,68,79,TRUE,2,502,0,"Saint Joseph's 79, George Washington 68",1,1,0,0,0,2,2,TRUE,0,0,FALSE,FALSE
+401724438,2025-02-19,VCU,Massachusetts,80,51,TRUE,2,450,0,"Massachusetts 51, VCU 80",1,1,0,0,0,2,1,TRUE,0,0,FALSE,FALSE
+401724441,2025-02-22,Saint Louis,Rhode Island,81,66,TRUE,2,401,0,"Rhode Island 66, Saint Louis 81",1,1,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401724446,2025-02-25,Davidson,Saint Louis,56,57,TRUE,2,356,0,"Saint Louis 57, Davidson 56",1,1,0,0,0,2,3,TRUE,0,0,FALSE,FALSE
+401724451,2025-02-26,George Mason,Fordham,74,64,TRUE,2,569,0,"Fordham 64, George Mason 74",1,1,0,0,0,2,1,TRUE,0,0,FALSE,FALSE
+401724461,2025-03-04,Dayton,Saint Louis,75,67,TRUE,2,382,0,"Saint Louis 67, Dayton 75",1,1,0,0,0,2,5,TRUE,0,0,FALSE,FALSE
+401724464,2025-03-05,George Mason,La Salle,69,62,TRUE,2,378,0,"La Salle 62, George Mason 69",1,1,0,0,0,2,1,TRUE,0,0,FALSE,FALSE
+401724471,2025-03-08,Saint Louis,Duquesne,90,88,TRUE,3,405,1,"Duquesne 88, Saint Louis 90",1,1,0,0,0,2,2,TRUE,0,0,FALSE,FALSE
+401724473,2025-03-08,Richmond,George Mason,60,64,TRUE,2,404,0,"George Mason 64, Richmond 60",0,0,2,0,0,2,2,TRUE,0,0,FALSE,FALSE
+401724504,2024-12-03,Duquesne,Saint Peter's,59,62,FALSE,2,325,0,"Saint Peter's 62, Duquesne 59",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401724505,2024-12-06,Duquesne,Delaware,80,66,FALSE,2,344,0,"Delaware 66, Duquesne 80",2,0,0,0,0,2,0,FALSE,0,0,FALSE,FALSE
+401729693,2024-11-26,Dayton,Iowa State,84,89,FALSE,2,320,0,"Iowa State 89, Dayton 84",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401729742,2024-11-28,Providence,Davidson,58,69,FALSE,2,297,0,"Davidson 69, Providence 58",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401729760,2024-11-22,UIC,La Salle,96,83,FALSE,2,340,0,"La Salle 83, UIC 96",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401729852,2024-11-29,Northern Iowa,St. Bonaventure,56,68,FALSE,2,264,0,"St. Bonaventure 68, Northern Iowa 56",2,0,0,0,0,2,0,TRUE,0,0,FALSE,FALSE
+401743810,2025-03-13,Saint Louis,Davidson,83,75,TRUE,2,404,0,"Davidson 75, Saint Louis 83",1,1,0,0,0,2,2,TRUE,0,0,FALSE,FALSE
+401743814,2025-03-14,Loyola Chicago,Saint Louis,72,64,TRUE,2,439,0,"Saint Louis 64, Loyola Chicago 72",1,1,0,0,0,2,3,TRUE,0,0,FALSE,FALSE
+401743817,2025-03-15,VCU,Loyola Chicago,62,55,TRUE,2,509,0,"Loyola Chicago 55, VCU 62",1,1,0,0,0,2,2,TRUE,0,0,FALSE,FALSE
+401751947,2025-03-22,George Mason,Bradley,67,75,FALSE,2,464,0,"Bradley 75, George Mason 67",1,1,0,0,0,2,4,TRUE,0,0,FALSE,FALSE
+401751976,2025-03-26,Loyola Chicago,Kent State,72,62,FALSE,2,470,0,"Kent State 62, Loyola Chicago 72",1,1,0,0,0,2,5,TRUE,0,0,FALSE,FALSE
+401758616,2025-03-31,Boise State,George Washington,89,59,FALSE,2,494,0,"George Washington 59, Boise State 89",1,1,0,0,0,2,4,TRUE,0,0,FALSE,FALSE
+401700403,2024-12-10,Saint Joseph's,Charleston,75,78,FALSE,2,323,0,"Charleston 78, Saint Joseph's 75",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401700416,2024-12-22,VCU,William & Mary,90,70,FALSE,2,331,0,"William & Mary 70, VCU 90",0,0,0,1,0,1,0,FALSE,0,0,FALSE,FALSE
+401715481,2024-12-14,Dayton,Marquette,71,63,FALSE,2,305,0,"Marquette 63, Dayton 71",0,0,0,1,0,1,0,TRUE,0,0,FALSE,FALSE
+401716873,2024-12-08,Fordham,Maine,87,72,FALSE,2,359,0,"Maine 72, Fordham 87",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401718417,2024-11-13,Massachusetts,Louisiana Tech,66,76,FALSE,2,336,0,"Louisiana Tech 76, Massachusetts 66",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401718449,2024-11-12,Rhode Island,Franklin Pierce,105,73,FALSE,2,423,0,"Franklin Pierce 73, Rhode Island 105",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401719329,2024-12-08,Saint Louis,Chicago State,85,62,FALSE,2,326,0,"Chicago State 62, Saint Louis 85",0,0,0,1,0,1,0,TRUE,0,0,FALSE,FALSE
+401720983,2024-12-21,Duquesne,UC Irvine,70,54,FALSE,2,299,0,"UC Irvine 54, Duquesne 70",1,0,0,0,0,1,0,FALSE,0,0,FALSE,FALSE
+401721027,2024-12-28,Davidson,Eastern Michigan,86,64,FALSE,2,304,0,"Eastern Michigan 64, Davidson 86",0,0,0,1,0,1,0,TRUE,0,0,FALSE,FALSE
+401724357,2025-01-08,George Mason,Richmond,64,58,TRUE,2,281,0,"Richmond 58, George Mason 64",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401724359,2025-01-08,La Salle,Loyola Chicago,68,79,TRUE,2,308,0,"Loyola Chicago 79, La Salle 68",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401724382,2025-01-21,Rhode Island,VCU,57,81,TRUE,2,373,0,"VCU 81, Rhode Island 57",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401724392,2025-01-28,St. Bonaventure,Dayton,75,53,TRUE,2,253,0,"Dayton 53, St. Bonaventure 75",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401724393,2025-01-28,Saint Louis,VCU,78,69,TRUE,2,367,0,"VCU 69, Saint Louis 78",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401724407,2025-02-04,VCU,La Salle,96,66,TRUE,2,310,0,"La Salle 66, VCU 96",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401724527,2024-12-27,Duquesne,Cleary University,93,45,FALSE,2,284,0,"Cleary University 45, Duquesne 93",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401729698,2024-11-27,Dayton,UConn,85,67,FALSE,2,302,0,"UConn 67, Dayton 85",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401732169,2024-11-25,Richmond,Florida Tech,67,57,FALSE,2,302,0,"Florida Tech 57, Richmond 67",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401732298,2024-11-25,George Washington,Illinois State,72,64,FALSE,2,306,0,"Illinois State 64, George Washington 72",1,0,0,0,0,1,0,TRUE,0,0,FALSE,FALSE
+401751948,2025-03-23,San Francisco,Loyola Chicago,76,77,FALSE,2,487,0,"Loyola Chicago 77, San Francisco 76",0,0,0,1,0,1,5,TRUE,0,0,FALSE,FALSE
+401700408,2024-11-08,VCU,Boston College,80,55,FALSE,2,378,0,"Boston College 55, VCU 80",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401700415,2024-12-18,New Mexico,VCU,78,71,FALSE,2,365,0,"VCU 71, New Mexico 78",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401715398,2024-11-09,Dayton,Northwestern,71,66,FALSE,2,308,0,"Northwestern 66, Dayton 71",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401715537,2024-12-07,Rhode Island,Providence,69,63,FALSE,2,335,0,"Providence 63, Rhode Island 69",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401715561,2024-11-09,Seton Hall,Fordham,56,57,FALSE,2,327,0,"Fordham 57, Seton Hall 56",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401715564,2024-11-21,VCU,Seton Hall,66,69,FALSE,3,356,1,"Seton Hall 69, VCU 66",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401716871,2024-12-01,Fordham,New Hampshire,83,61,FALSE,2,327,0,"New Hampshire 61, Fordham 83",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401716872,2024-12-04,Fordham,Fairleigh Dickinson,84,75,FALSE,2,353,0,"Fairleigh Dickinson 75, Fordham 84",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401716878,2024-11-16,East Carolina,George Mason,78,77,FALSE,4,416,2,"George Mason 77, East Carolina 78",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718136,2024-11-08,George Washington,Hampton,82,54,FALSE,2,347,0,"Hampton 54, George Washington 82",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718137,2024-11-12,George Washington,North Carolina A&T,85,80,FALSE,2,324,0,"North Carolina A&T 80, George Washington 85",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718138,2024-11-18,George Washington,NJIT,84,64,FALSE,2,311,0,"NJIT 64, George Washington 84",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718139,2024-11-29,George Washington,VMI,77,64,FALSE,2,288,0,"VMI 64, George Washington 77",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718249,2024-11-16,Dayton,Capital,76,55,FALSE,2,314,0,"Capital 55, Dayton 76",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718250,2024-11-20,Dayton,New Mexico State,74,53,FALSE,2,304,0,"New Mexico State 53, Dayton 74",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718251,2024-12-03,Dayton,Western Michigan,77,69,FALSE,2,266,0,"Western Michigan 69, Dayton 77",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718253,2024-12-17,Dayton,UNLV,66,65,FALSE,2,273,0,"UNLV 65, Dayton 66",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718346,2024-11-04,Loyola Chicago,Chicago State,79,72,FALSE,2,366,0,"Chicago State 72, Loyola Chicago 79",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718348,2024-11-10,Loyola Chicago,Eureka,105,53,FALSE,2,356,0,"Eureka 53, Loyola Chicago 105",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718352,2024-12-03,Loyola Chicago,Eastern Michigan,76,54,FALSE,2,288,0,"Eastern Michigan 54, Loyola Chicago 76",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718420,2024-11-27,Harvard,Massachusetts,54,62,FALSE,2,316,0,"Massachusetts 62, Harvard 54",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718448,2024-11-08,Rhode Island,Holy Cross,91,77,FALSE,2,330,0,"Holy Cross 77, Rhode Island 91",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718451,2024-11-24,Rhode Island,Charleston,91,53,FALSE,2,341,0,"Charleston 53, Rhode Island 91",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401718452,2024-12-02,Rhode Island,Yale,84,78,FALSE,2,365,0,"Yale 78, Rhode Island 84",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401719323,2024-11-10,Saint Louis,Avila,95,44,FALSE,2,340,0,"Avila 44, Saint Louis 95",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401719324,2024-11-16,Saint Louis,Loyola Marymount,77,71,FALSE,2,336,0,"Loyola Marymount 71, Saint Louis 77",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401719325,2024-11-25,Saint Louis,Quinnipiac,81,67,FALSE,2,371,0,"Quinnipiac 67, Saint Louis 81",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401719332,2024-12-22,Grand Canyon,Saint Louis,73,72,FALSE,2,329,0,"Saint Louis 72, Grand Canyon 73",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401720569,2024-11-16,Davidson,East Tennessee State,76,70,FALSE,2,310,0,"East Tennessee State 70, Davidson 76",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401721784,2024-12-10,Davidson,Charlotte,75,71,FALSE,2,291,0,"Charlotte 71, Davidson 75",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401721785,2024-12-14,Davidson,Detroit Mercy,86,51,FALSE,2,321,0,"Detroit Mercy 51, Davidson 86",0,0,0,0,0,0,0,FALSE,0,0,FALSE,TRUE
+401724347,2025-01-04,George Washington,Dayton,82,62,TRUE,2,328,0,"Dayton 62, George Washington 82",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724354,2025-01-08,Saint Louis,St. Bonaventure,73,68,TRUE,2,296,0,"St. Bonaventure 68, Saint Louis 73",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724358,2025-01-08,Rhode Island,George Washington,67,75,TRUE,2,366,0,"George Washington 75, Rhode Island 67",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724368,2025-01-15,George Washington,Duquesne,65,73,TRUE,2,366,0,"Duquesne 73, George Washington 65",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724375,2025-01-18,Rhode Island,Davidson,92,90,TRUE,2,297,0,"Davidson 90, Rhode Island 92",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724376,2025-01-18,Dayton,Loyola Chicago,83,81,TRUE,3,344,1,"Loyola Chicago 81, Dayton 83",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724386,2025-01-24,Dayton,Saint Joseph's,77,72,TRUE,2,295,0,"Saint Joseph's 72, Dayton 77",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724398,2025-01-29,Rhode Island,Massachusetts,88,82,TRUE,2,372,0,"Massachusetts 82, Rhode Island 88",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724399,2025-01-31,Saint Louis,Dayton,63,71,TRUE,2,314,0,"Dayton 71, Saint Louis 63",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724404,2025-02-01,Loyola Chicago,Saint Joseph's,58,55,TRUE,2,323,0,"Saint Joseph's 55, Loyola Chicago 58",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724406,2025-02-04,Dayton,Davidson,69,63,TRUE,2,294,0,"Davidson 63, Dayton 69",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724412,2025-02-05,George Washington,George Mason,50,53,TRUE,2,316,0,"George Mason 53, George Washington 50",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724422,2025-02-12,George Washington,VCU,72,80,TRUE,2,494,0,"VCU 80, George Washington 72",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724424,2025-02-12,Fordham,Dayton,76,93,TRUE,2,459,0,"Dayton 93, Fordham 76",0,0,0,0,0,0,3,TRUE,0,0,FALSE,TRUE
+401724426,2025-02-12,Rhode Island,St. Bonaventure,68,64,TRUE,2,347,0,"St. Bonaventure 64, Rhode Island 68",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724428,2025-02-15,George Mason,Saint Joseph's,58,57,TRUE,2,392,0,"Saint Joseph's 57, George Mason 58",0,0,0,0,0,0,1,TRUE,0,0,FALSE,TRUE
+401724433,2025-02-15,Massachusetts,St. Bonaventure,59,73,TRUE,2,449,0,"St. Bonaventure 73, Massachusetts 59",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724435,2025-02-19,Duquesne,Fordham,73,64,TRUE,2,490,0,"Fordham 64, Duquesne 73",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724437,2025-02-19,La Salle,Richmond,58,63,TRUE,2,352,0,"Richmond 63, La Salle 58",0,0,0,0,0,0,3,TRUE,0,0,FALSE,TRUE
+401724439,2025-02-21,Loyola Chicago,Dayton,76,72,TRUE,2,484,0,"Dayton 72, Loyola Chicago 76",0,0,0,0,0,0,4,TRUE,0,0,FALSE,TRUE
+401724440,2025-02-22,Saint Joseph's,Richmond,78,62,TRUE,2,371,0,"Richmond 62, Saint Joseph's 78",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724444,2025-02-22,VCU,George Mason,70,54,TRUE,2,452,0,"George Mason 54, VCU 70",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724448,2025-02-26,Saint Joseph's,St. Bonaventure,75,64,TRUE,2,369,0,"St. Bonaventure 64, Saint Joseph's 75",0,0,0,0,0,0,1,TRUE,0,0,FALSE,TRUE
+401724449,2025-02-26,Rhode Island,Dayton,77,85,TRUE,2,459,0,"Dayton 85, Rhode Island 77",0,0,0,0,0,0,3,TRUE,0,0,FALSE,TRUE
+401724452,2025-02-26,Loyola Chicago,George Washington,77,57,TRUE,2,480,0,"George Washington 57, Loyola Chicago 77",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724453,2025-02-28,VCU,Davidson,80,56,TRUE,2,425,0,"Davidson 56, VCU 80",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724454,2025-03-01,Fordham,Saint Joseph's,76,90,TRUE,2,443,0,"Saint Joseph's 90, Fordham 76",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724455,2025-03-01,Dayton,Richmond,74,64,TRUE,4,501,2,"Richmond 64, Dayton 74",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724458,2025-03-01,Saint Louis,Loyola Chicago,98,67,TRUE,2,419,0,"Loyola Chicago 67, Saint Louis 98",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724460,2025-03-04,Duquesne,VCU,62,71,TRUE,2,467,0,"VCU 71, Duquesne 62",0,0,0,0,0,0,3,TRUE,0,0,FALSE,TRUE
+401724462,2025-03-05,Loyola Chicago,Davidson,82,72,TRUE,2,472,0,"Davidson 72, Loyola Chicago 82",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724463,2025-03-05,Fordham,George Washington,58,81,TRUE,2,495,0,"George Washington 81, Fordham 58",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724465,2025-03-05,St. Bonaventure,Massachusetts,73,72,TRUE,2,437,0,"Massachusetts 72, St. Bonaventure 73",0,0,0,0,0,0,1,TRUE,0,0,FALSE,TRUE
+401724466,2025-03-05,Saint Joseph's,Rhode Island,91,74,TRUE,2,451,0,"Rhode Island 74, Saint Joseph's 91",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724467,2025-03-07,VCU,Dayton,76,79,TRUE,2,437,0,"Dayton 79, VCU 76",0,0,0,0,0,0,3,TRUE,0,0,FALSE,TRUE
+401724468,2025-03-08,Massachusetts,Loyola Chicago,51,74,TRUE,2,475,0,"Loyola Chicago 74, Massachusetts 51",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401724469,2025-03-08,La Salle,Saint Joseph's,81,74,TRUE,2,415,0,"Saint Joseph's 74, La Salle 81",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401724472,2025-03-08,Rhode Island,Fordham,86,67,TRUE,2,493,0,"Fordham 67, Rhode Island 86",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401729790,2024-11-22,Nevada,VCU,64,61,FALSE,2,299,0,"VCU 61, Nevada 64",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401729791,2024-11-24,VCU,Miami,77,70,FALSE,2,307,0,"Miami 70, VCU 77",0,0,0,0,0,0,0,TRUE,0,0,FALSE,TRUE
+401743807,2025-03-12,Rhode Island,Fordham,71,88,TRUE,2,482,0,"Fordham 88, Rhode Island 71",0,0,0,0,0,0,5,TRUE,0,0,FALSE,TRUE
+401743809,2025-03-13,St. Bonaventure,Duquesne,64,59,TRUE,2,415,0,"Duquesne 59, St. Bonaventure 64",0,0,0,0,0,0,4,TRUE,0,0,FALSE,TRUE
+401745968,2025-03-20,BYU,VCU,80,71,FALSE,2,532,0,"VCU 71, BYU 80",0,0,0,0,0,0,5,TRUE,0,0,FALSE,TRUE
+401751911,2025-03-18,Arkansas State,Saint Louis,103,78,FALSE,2,427,0,"Saint Louis 78, Arkansas State 103",0,0,0,0,0,0,2,TRUE,0,0,FALSE,TRUE
+401751937,2025-03-19,San José State,Loyola Chicago,70,73,FALSE,2,437,0,"Loyola Chicago 73, San José State 70",0,0,0,0,0,0,4,TRUE,0,0,FALSE,TRUE
+401751940,2025-03-19,Dayton,Florida Atlantic,86,79,FALSE,2,472,0,"Florida Atlantic 79, Dayton 86",0,0,0,0,0,0,5,TRUE,0,0,FALSE,TRUE
+401751942,2025-03-19,George Mason,Samford,86,69,FALSE,2,520,0,"Samford 69, George Mason 86",0,0,0,0,0,0,6,TRUE,0,0,FALSE,TRUE
+401751944,2025-03-19,Saint Joseph's,UAB,65,69,FALSE,2,470,0,"UAB 69, Saint Joseph's 65",0,0,0,0,0,0,5,TRUE,0,0,FALSE,TRUE
+401751979,2025-04-01,Loyola Chicago,Chattanooga,73,80,FALSE,2,423,0,"Chattanooga 80, Loyola Chicago 73",0,0,0,0,0,0,5,TRUE,0,0,FALSE,TRUE

@@ -3,22 +3,26 @@
 Every college basketball game produces three records of the same events: the
 play-by-play log, the team box score and the player box score. This project
 counts each one against the others for every game an Atlantic 10 team played in
-2025-26 and lists every place they disagree.
+2025-26 and lists every place they disagree. The season is a parameter (2026 =
+2025-26, the default; 2025 = 2024-25).
 
 **Result:** 335 games, 115,846 comparisons, 660 mismatches. Scoring reconciles
 exactly. Assists do not: play-by-play assists match the box score in 79% of
-team-games, and the gap depends on which arena hosted the game. The full
-write-up is at <https://leftstriker7.github.io/a10-data-audit/>.
+team-games. The gap is uneven across host arenas, but a second season
+(2024-25) shows the pattern does not repeat from year to year, so it is not a
+fixed arena habit. The full write-up is at
+<https://leftstriker7.github.io/a10-data-audit/>.
 
 ## What is here
 
 | File | What it does |
 | --- | --- |
-| `scripts/01_pull_data.R` | Downloads public ESPN data with `hoopR` and caches it in `data/` |
-| `scripts/02_run_checks.R` | Runs the checks and writes the results to `output/` |
+| `scripts/01_pull_data.R` | Downloads public ESPN data with `hoopR` and caches it in `data/<season>/` |
+| `scripts/02_run_checks.R` | Runs the checks and writes the results to `output/<season>/` |
+| `scripts/03_compare_seasons.R` | Tests whether the assist gap by arena repeats across seasons |
 | `report.Rmd` | One-page write-up of the findings |
 | `app.R` | Shiny app for browsing mismatches by game, team, stat and check |
-| `output/discrepancies.csv` | Every mismatch, one row each |
+| `output/2026/discrepancies.csv` | Every mismatch, one row each |
 
 ## The checks
 
@@ -36,8 +40,11 @@ Needs R 4.1 or later and these packages: `hoopR`, `dplyr`, `tidyr`, `readr`,
 `ggplot2`, `shiny`, `bslib`, `DT`, `rmarkdown`.
 
 ```sh
-Rscript scripts/01_pull_data.R
-Rscript scripts/02_run_checks.R
+for season in 2025 2026; do
+  Rscript scripts/01_pull_data.R $season
+  Rscript scripts/02_run_checks.R $season
+done
+Rscript scripts/03_compare_seasons.R
 Rscript -e 'rmarkdown::render("report.Rmd", output_dir = "output")'
 Rscript -e 'shiny::runApp(".", launch.browser = TRUE)'
 ```

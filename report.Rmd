@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 8, fig.height = 3.6, dpi = 144)
 library(dplyr)
 library(ggplot2)
-a <- readRDS("output/audit.rds")
+a <- readRDS("output/2026/audit.rds")
 d <- a$discrepancies
 cs <- a$check_summary
 ss <- a$stat_summary
@@ -28,6 +28,15 @@ tm <- a$assist_by_team
 bona <- tm[tm$team == "St. Bonaventure", ]
 ooo <- sum(a$integrity$out_of_order > 0)
 accent <- "#1f5f8b"
+cmp <- readRDS("output/season_comparison.rds")
+prev <- readRDS("output/2025/audit.rds")
+ov <- cmp$overall
+w <- cmp$wide
+bw <- cmp$by_wording
+bona_w <- w[w$host == "St. Bonaventure", ]
+prev_pts <- prev$all_checks[prev$all_checks$check == "Play-by-play vs team box" & prev$all_checks$stat == "pts", ]
+prev_incomplete <- length(unique(prev_pts$game_id[prev_pts$diff != 0]))
+prev_orb <- prev$stat_summary[prev$stat_summary$stat == "Offensive rebounds", ]
 ```
 
 **The question.** Every game produces three records of the same events: the play-by-play log, the team box score and the player box score. If the data is right, all three agree. I pulled the public ESPN data for every game an Atlantic 10 team played in 2025-26 (`r n(nrow(a$games))` games, `r n(sum(gs$events))` play-by-play events) and counted each one against the others, the same way a stock count is reconciled against the ledger.
@@ -38,7 +47,7 @@ accent <- "#1f5f8b"
 
 1. **Assists are the weak point.** Play-by-play assists match the team box score in only `r pct(ast$match_rate)` of team-games; every other stat matches in `r pct(min(rest$match_rate))` or more. The play-by-play is short by a net `r n(ast$box_total - ast$pbp_total)` assists over the season.
 
-2. **The assist gap depends on where the game was played.** In games hosted by `r host$host[1]`, `r pct(host$share_off[1], 0)` of team-games have an assist mismatch. In games hosted by `r host$host[nrow(host)]`, it is `r pct(host$share_off[nrow(host)], 0)`. That points to how each arena's scoring crew enters assists, not to random error. I have not confirmed the cause; the pattern is what the data shows.
+2. **The gap is uneven across arenas, but it is not a fixed arena habit.** In games hosted by `r host$host[1]`, `r pct(host$share_off[1], 0)` of team-games have an assist mismatch; in games hosted by `r host$host[nrow(host)]`, it is `r pct(host$share_off[nrow(host)], 0)`. My first read was that each arena's scoring crew enters assists differently. I tested that against 2024-25 and it did not hold (see "Does it repeat?" below).
 
 3. **It changes a ranking.** By the box score, St. Bonaventure was `r bona$rank_box`nd in the conference in assists per game (`r formatC(bona$box_per_game, format = "f", digits = 1)`). Counted from play-by-play, they drop to `r bona$rank_pbp`th (`r formatC(bona$pbp_per_game, format = "f", digits = 1)`). Any lineup or on/off assist number built from play-by-play carries that error.
 
@@ -71,6 +80,31 @@ host |>
   theme(panel.grid.major.y = element_blank(), panel.grid.minor = element_blank(), plot.title.position = "plot")
 ```
 
+## Does it repeat? A second season
+
+I ran the same checks on 2024-25 to see whether the same arenas had the same assist gaps. They did not.
+
+```{r season-chart, fig.height = 4.2}
+cmp$by_host |>
+  filter(host %in% w$host[!is.na(w$share_off_2025) & !is.na(w$share_off_2026)]) |>
+  mutate(host = reorder(host, share_off * (season == 2026), FUN = max)) |>
+  ggplot(aes(share_off, host, fill = label)) +
+  geom_col(position = position_dodge(width = 0.75), width = 0.7) +
+  scale_fill_manual(values = c("2024-25" = "#9fb8cc", "2025-26" = accent), name = NULL) +
+  scale_x_continuous(labels = scales::percent) +
+  labs(title = "Share of team-games with an assist mismatch, by host arena and season", x = NULL, y = NULL) +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.major.y = element_blank(), panel.grid.minor = element_blank(),
+        plot.title.position = "plot", legend.position = "top")
+```
+
+- **No carry-over.** Across the `r cmp$hosts_compared` arenas in both seasons, the rank correlation between one year's mismatch rate and the next is `r formatC(cmp$rank_cor, format = "f", digits = 2)`, which is no relationship. St. Bonaventure's home games went from `r pct(bona_w$share_off_2025, 0)` mismatched to `r pct(bona_w$share_off_2026, 0)`.
+- **The whole conference got worse.** The share of team-games with an assist mismatch rose from `r pct(ov$share_off[ov$season == 2025])` to `r pct(ov$share_off[ov$season == 2026])`.
+- **I do not know why.** The feed changed in 2025-26: `r bw$games[bw$season == 2026 & bw$new_wording]` of `r sum(bw$games[bw$season == 2026])` games use new play-by-play wording that appears in no 2024-25 game. But within 2025-26, games with the new wording are no worse than the rest (`r pct(bw$share_off[bw$season == 2026 & bw$new_wording], 0)` against `r pct(bw$share_off[bw$season == 2026 & !bw$new_wording], 0)`), so the wording change does not explain it.
+- **The older season has different problems.** In 2024-25, `r prev_incomplete` of `r n(nrow(prev$games))` games have play-by-play that does not account for every point, `r sum(prev$game_summary$no_pbp)` of them with no play-by-play at all. Offensive rebounds match the box score in only `r pct(prev_orb$match_rate, 0)` of team-games, because the play-by-play logs `r n(prev_orb$pbp_total - prev_orb$box_total)` more than the box score does, consistent with dead-ball team rebounds being coded as offensive rebounds that season.
+
+The practical point: the errors are not stable from year to year, so a one-time cleanup does not last. The checks have to run on every game.
+
 ## The checks
 
 ```{r check-table}
@@ -92,4 +126,4 @@ cs |>
 
 This is public ESPN data loaded with the `hoopR` package, not CBB Analytics' own feed, so the specific errors may differ from yours. The scores in this play-by-play were rebuilt by `hoopR`, so the running score cannot be tested independently. A mismatch shows that two records disagree; it does not show which one is right. That takes film or the official scorer's report.
 
-The method carries over to any feed. Every mismatch is listed by game, team and player in `output/discrepancies.csv` and in the app (`app.R`).
+The method carries over to any feed. Every mismatch is listed by game, team and player in `output/2026/discrepancies.csv` (and `output/2025/` for the earlier season) and in the app (`app.R`).
